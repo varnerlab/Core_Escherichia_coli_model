@@ -6,12 +6,12 @@ from SOAPpy import SOAPProxy ## for usage without WSDL file
 
 # setup some constants -
 endpointURL = "https://www.brenda-enzymes.org/soap/brenda_server.php"
-password = "G7E-8a7-Q74-mTV".encode('utf-8')
+password = "<your password goes here>".encode('utf-8')
 encoded_password = hashlib.sha256(password).hexdigest()
 client = SOAPProxy(endpointURL)
 
 # load the ec number file -
-input_text_file = open("../config/data/ec_numbers.dat", "r")
+input_text_file = open("<path to file with ec numbers>", "r")
 for line_raw in input_text_file:
 
     # Remove the \n, and split along the tab -
@@ -22,7 +22,7 @@ for line_raw in input_text_file:
 
     # setup the parameters for the call -
     # ecNumber*1.1.1.1#organism*Homo sapiens#"
-    parameters = "jdv27@cornell.edu,"+encoded_password+",ecNumber*1.1.1.1#organism*Mus musculus#"
+    parameters = "<your username goes here>,"+encoded_password+",ecNumber*"+ec_number+"#Escherichia coli#"
 
     # make the call -
     resultString = client.getTurnoverNumber(parameters)
@@ -34,7 +34,7 @@ for line_raw in input_text_file:
     # if we have data, then dump to disk -
     if len(resultString) != 0:
         # finally, we need to open a file, and dump the kinetic data to disk -
-        file_path = "../config/data/brenda_data/ec_data."+ec_number+".dat"
+        file_path = "<path to output files>/ec_data."+ec_number+".dat"
         with open(file_path, 'w') as f:
             output_string = resultString.encode('utf-8')
             f.write(output_string)
