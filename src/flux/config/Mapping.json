@@ -1,0 +1,5 @@
+{
+  "eco":{
+    "path_to_default_constants":"/flux/config/constants/default_bacteria.json"
+  }
+}
