@@ -22,7 +22,7 @@ for line_raw in input_text_file:
 
     # setup the parameters for the call -
     # ecNumber*1.1.1.1#organism*Homo sapiens#"
-    parameters = "<your username goes here>,"+encoded_password+",ecNumber*"+ec_number+"#Escherichia coli#"
+    parameters = "<your username goes here>,"+encoded_password+",ecNumber*"+ec_number+"#organism*Escherichia coli#"
 
     # make the call -
     resultString = client.getTurnoverNumber(parameters)

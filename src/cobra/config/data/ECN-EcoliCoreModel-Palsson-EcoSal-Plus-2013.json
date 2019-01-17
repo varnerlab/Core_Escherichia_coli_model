@@ -1,0 +1,3334 @@
+{
+      "ec:2.2.1.1": [
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "18047",
+                  "ecNumber": "2.2.1.1",
+                  "commentary": "pH 7.0, 25&deg;C",
+                  "substrate": "lithium beta-hydroxypyruvate",
+                  "literature": "696918",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "410000"
+            }
+      ],
+      "ec:1.1.1.28": [
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "313",
+                  "ecNumber": "1.1.1.28",
+                  "commentary": "pH 7.0, 30&deg;C, recombinant enzyme",
+                  "substrate": "2-oxobutyrate",
+                  "literature": "739841",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "31"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "326",
+                  "ecNumber": "1.1.1.28",
+                  "commentary": "pH 7.0, 30&deg;C, recombinant enzyme",
+                  "substrate": "Hydroxypyruvate",
+                  "literature": "739841",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "50"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "95",
+                  "ecNumber": "1.1.1.28",
+                  "commentary": "pH 7.0, 30&deg;C, recombinant enzyme",
+                  "substrate": "glyoxylate",
+                  "literature": "739841",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "100"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "29",
+                  "ecNumber": "1.1.1.28",
+                  "commentary": "pH 8.0, 30&deg;C, recombinant enzyme, with Mg2+",
+                  "substrate": "pyruvate",
+                  "literature": "739841",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "370"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "29",
+                  "ecNumber": "1.1.1.28",
+                  "commentary": "pH 8.0, 30&deg;C, recombinant enzyme",
+                  "substrate": "pyruvate",
+                  "literature": "739841",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "380"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "29",
+                  "ecNumber": "1.1.1.28",
+                  "commentary": "pH 8.0, 30&deg;C, recombinant enzyme, with fructose 1,6-bisphosphate",
+                  "substrate": "pyruvate",
+                  "literature": "739841",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "400"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "29",
+                  "ecNumber": "1.1.1.28",
+                  "commentary": "pH 7.0, 30&deg;C, recombinant enzyme",
+                  "substrate": "pyruvate",
+                  "literature": "739841",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "410"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "3",
+                  "ecNumber": "1.1.1.28",
+                  "commentary": "pH 7.0, 30&deg;C, recombinant enzyme",
+                  "substrate": "NADH",
+                  "literature": "739841",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "640"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "3",
+                  "ecNumber": "1.1.1.28",
+                  "commentary": "pH 8.0, 30&deg;C, recombinant enzyme, with Mg2+",
+                  "substrate": "NADH",
+                  "literature": "739841",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "690"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "3",
+                  "ecNumber": "1.1.1.28",
+                  "commentary": "pH 8.0, 30&deg;C, recombinant enzyme",
+                  "substrate": "NADH",
+                  "literature": "739841",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "710"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "3",
+                  "ecNumber": "1.1.1.28",
+                  "commentary": "pH 8.0, 30&deg;C, recombinant enzyme, with fructose 1,6-bisphosphate",
+                  "substrate": "NADH",
+                  "literature": "739841",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "730"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "53",
+                  "ecNumber": "1.1.1.28",
+                  "commentary": "pH 7.0, 30&deg;C, recombinant enzyme",
+                  "substrate": "oxaloacetate",
+                  "literature": "739841",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "1100"
+            }
+      ],
+      "ec:2.3.3.9": [
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "95",
+                  "ecNumber": "2.3.3.9",
+                  "commentary": "mutant R338K, pH 8.0, 37&Acirc;&deg;C",
+                  "substrate": "glyoxylate",
+                  "literature": "660456",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "3.19"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "95",
+                  "ecNumber": "2.3.3.9",
+                  "commentary": "mutant C617S, pH 8.0, 37&Acirc;&deg;C",
+                  "substrate": "glyoxylate",
+                  "literature": "660456",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "42.4"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "95",
+                  "ecNumber": "2.3.3.9",
+                  "commentary": "wild-type, pH 8.0, 37&Acirc;&deg;C",
+                  "substrate": "glyoxylate",
+                  "literature": "660456",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "48.1"
+            }
+      ],
+      "ec:2.6.1.85": [
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "182",
+                  "ecNumber": "2.6.1.85",
+                  "commentary": "mutant K274R, cosubstrate NH4+, pH 8.5, 25&deg;C",
+                  "substrate": "chorismate",
+                  "literature": "661933",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "0.000098"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "182",
+                  "ecNumber": "2.6.1.85",
+                  "commentary": "mutant K274R, cosubstrate L-glutamine, pH 8.5, 25&deg;C",
+                  "substrate": "chorismate",
+                  "literature": "661933",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "0.00083"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "182",
+                  "ecNumber": "2.6.1.85",
+                  "commentary": "mutant K274A, cosubstrate L-glutamine, pH 8.5, 25&deg;C",
+                  "substrate": "chorismate",
+                  "literature": "661933",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "0.002"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "182",
+                  "ecNumber": "2.6.1.85",
+                  "commentary": "mutant K274A, cosubstrate NH4+, pH 8.5, 25&deg;C",
+                  "substrate": "chorismate",
+                  "literature": "661933",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "0.026"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "182",
+                  "ecNumber": "2.6.1.85",
+                  "commentary": "wild-type, cosubstrate NH4+, pH 8.5, 25&deg;C",
+                  "substrate": "chorismate",
+                  "literature": "661933",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "0.032"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "182",
+                  "ecNumber": "2.6.1.85",
+                  "commentary": "wild-type, cosubstrate L-glutamine, pH 8.5, 25&deg;C",
+                  "substrate": "chorismate",
+                  "literature": "661933",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "0.53"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "96",
+                  "ecNumber": "2.6.1.85",
+                  "commentary": "mutant K213A/Q147K amidotransferase activity, pH 8.0, 25&deg;C",
+                  "substrate": "L-glutamine",
+                  "literature": "702371",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "0.6"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "96",
+                  "ecNumber": "2.6.1.85",
+                  "commentary": "wild type amidotransferase activity, pH 8.0, 25&deg;C",
+                  "substrate": "L-glutamine",
+                  "literature": "702371",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "0.67"
+            }
+      ],
+      "ec:2.7.1.11": [
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "7",
+                  "ecNumber": "2.7.1.11",
+                  "commentary": "wild type enzyme, in the presence of Mn2+, in 0.05 M Tris-HCl, pH 8.2, temperature not specified in the publication",
+                  "substrate": "ATP",
+                  "literature": "721420",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "0.037"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "7",
+                  "ecNumber": "2.7.1.11",
+                  "commentary": "mutant enzyme E190Q, in the presence of Mg2+, in 0.05 M Tris-HCl, pH 8.2, temperature not specified in the publication",
+                  "substrate": "ATP",
+                  "literature": "721420",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "0.24"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "7",
+                  "ecNumber": "2.7.1.11",
+                  "commentary": "mutant enzyme E190Q, in the presence of Mn2+, in 0.05 M Tris-HCl, pH 8.2, temperature not specified in the publication",
+                  "substrate": "ATP",
+                  "literature": "721420",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "9"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "7",
+                  "ecNumber": "2.7.1.11",
+                  "commentary": "wild type enzyme, in the presence of Mg2+, in 0.05 M Tris-HCl, pH 8.2, temperature not specified in the publication",
+                  "substrate": "ATP",
+                  "literature": "721420",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "62"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "82",
+                  "ecNumber": "2.7.1.11",
+                  "commentary": "pH 7.2, 30&Acirc;&deg;C, cosubstrate gamma-thio-ATP",
+                  "substrate": "D-fructose 6-phosphate",
+                  "literature": "640526",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "0.016"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "82",
+                  "ecNumber": "2.7.1.11",
+                  "commentary": "in the presence of 0.5 mM MgATP2-, at pH 8.2 and 25&Acirc;&deg;C",
+                  "substrate": "D-fructose 6-phosphate",
+                  "literature": "722736",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "44"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "82",
+                  "ecNumber": "2.7.1.11",
+                  "commentary": "in the presence of 0.1 mM MgATP2-, at pH 8.2 and 25&Acirc;&deg;C",
+                  "substrate": "D-fructose 6-phosphate",
+                  "literature": "722736",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "60"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "82",
+                  "ecNumber": "2.7.1.11",
+                  "commentary": "pH 8.0, 8.5&Acirc;&deg;C, T125A mutant PFK",
+                  "substrate": "fructose 6-phosphate",
+                  "literature": "640517",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "0.015"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "82",
+                  "ecNumber": "2.7.1.11",
+                  "commentary": "pH 8.5, 30&Acirc;&deg;C, R72H mutant PFK",
+                  "substrate": "fructose 6-phosphate",
+                  "literature": "640490",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "0.3"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "82",
+                  "ecNumber": "2.7.1.11",
+                  "commentary": "pH 8.0, 8.5&Acirc;&deg;C, R72E mutant PFK",
+                  "substrate": "fructose 6-phosphate",
+                  "literature": "640517",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "0.303"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "82",
+                  "ecNumber": "2.7.1.11",
+                  "commentary": "pH 8.0, 8.5&Acirc;&deg;C, R171E mutant PFK",
+                  "substrate": "fructose 6-phosphate",
+                  "literature": "640517",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "3.47"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "82",
+                  "ecNumber": "2.7.1.11",
+                  "commentary": "pH 8.5, 30&Acirc;&deg;C, R252Q mutant PFK",
+                  "substrate": "fructose 6-phosphate",
+                  "literature": "640519",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "3.7"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "82",
+                  "ecNumber": "2.7.1.11",
+                  "commentary": "pH 8.2, 5&Acirc;&deg;C",
+                  "substrate": "fructose 6-phosphate",
+                  "literature": "640491",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "5"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "82",
+                  "ecNumber": "2.7.1.11",
+                  "commentary": "pH 7.2, 30&Acirc;&deg;C, cosubstrate ATP",
+                  "substrate": "fructose 6-phosphate",
+                  "literature": "640526",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "49"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "82",
+                  "ecNumber": "2.7.1.11",
+                  "commentary": "pH 8.5, 30&Acirc;&deg;C, I126A mutant PFK",
+                  "substrate": "fructose 6-phosphate",
+                  "literature": "640490",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "57.2"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "82",
+                  "ecNumber": "2.7.1.11",
+                  "commentary": "pH 8.2, 15&Acirc;&deg;C",
+                  "substrate": "fructose 6-phosphate",
+                  "literature": "640491",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "60"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "82",
+                  "ecNumber": "2.7.1.11",
+                  "commentary": "pH 8.0, 8.5&Acirc;&deg;C, wild-type PFK",
+                  "substrate": "fructose 6-phosphate",
+                  "literature": "640517",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "61"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "82",
+                  "ecNumber": "2.7.1.11",
+                  "commentary": "pH 7.2, 30&Acirc;&deg;C, at 2mM ATP",
+                  "substrate": "fructose 6-phosphate",
+                  "literature": "640526",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "88"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "82",
+                  "ecNumber": "2.7.1.11",
+                  "commentary": "pH 8.2, 25&Acirc;&deg;C",
+                  "substrate": "fructose 6-phosphate",
+                  "literature": "640491",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "110"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "82",
+                  "ecNumber": "2.7.1.11",
+                  "commentary": "pH 8.5, 30&Acirc;&deg;C, wild-type PFK",
+                  "substrate": "fructose 6-phosphate",
+                  "literature": "640490",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "111"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "82",
+                  "ecNumber": "2.7.1.11",
+                  "commentary": "pH 8.5, 30&Acirc;&deg;C",
+                  "substrate": "fructose 6-phosphate",
+                  "literature": "640519",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "167"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "82",
+                  "ecNumber": "2.7.1.11",
+                  "commentary": "pH 8.2, 37&Acirc;&deg;C",
+                  "substrate": "fructose 6-phosphate",
+                  "literature": "640491",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "185"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "",
+                  "ecNumber": "2.7.1.11",
+                  "commentary": "kcat increases with pH, addition of GDP increases Kcat at constant pH",
+                  "substrate": "more",
+                  "literature": "640489",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "-999"
+            }
+      ],
+      "ec:2.7.2.1": [
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "7",
+                  "ecNumber": "2.7.2.1",
+                  "commentary": "pH 6.5, 30&Acirc;&deg;C, recombinant mutant N213T/G332D/E336L/T385N",
+                  "substrate": "ATP",
+                  "literature": "738717",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "0.34"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "7",
+                  "ecNumber": "2.7.2.1",
+                  "commentary": "pH 6.5, 30&Acirc;&deg;C, recombinant mutant G332D",
+                  "substrate": "ATP",
+                  "literature": "738717",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "9.9"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "7",
+                  "ecNumber": "2.7.2.1",
+                  "commentary": "pH 6.5, 30&Acirc;&deg;C, recombinant mutant I334M",
+                  "substrate": "ATP",
+                  "literature": "738717",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "10.5"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "7",
+                  "ecNumber": "2.7.2.1",
+                  "commentary": "pH 6.5, 30&Acirc;&deg;C, recombinant mutant N213T",
+                  "substrate": "ATP",
+                  "literature": "738717",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "16.3"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "7",
+                  "ecNumber": "2.7.2.1",
+                  "commentary": "pH 6.5, 30&Acirc;&deg;C, recombinant mutant G333Q",
+                  "substrate": "ATP",
+                  "literature": "738717",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "41"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "7",
+                  "ecNumber": "2.7.2.1",
+                  "commentary": "pH 6.5, 30&Acirc;&deg;C, recombinant mutant N337E",
+                  "substrate": "ATP",
+                  "literature": "738717",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "395"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "7",
+                  "ecNumber": "2.7.2.1",
+                  "commentary": "pH 7.5, 10&Acirc;&deg;C, recombinant enzyme",
+                  "substrate": "ATP",
+                  "literature": "739591",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "565"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "7",
+                  "ecNumber": "2.7.2.1",
+                  "commentary": "pH 7.5, 15&Acirc;&deg;C, recombinant enzyme",
+                  "substrate": "ATP",
+                  "literature": "739591",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "745"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "7",
+                  "ecNumber": "2.7.2.1",
+                  "commentary": "pH 6.5, 30&Acirc;&deg;C, recombinant wild-type enzyme",
+                  "substrate": "ATP",
+                  "literature": "738717",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "908"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "7",
+                  "ecNumber": "2.7.2.1",
+                  "commentary": "pH 7.5, 20&Acirc;&deg;C, recombinant enzyme",
+                  "substrate": "ATP",
+                  "literature": "739591",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "1130"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "7",
+                  "ecNumber": "2.7.2.1",
+                  "commentary": "pH 7.5, 25&Acirc;&deg;C, recombinant enzyme",
+                  "substrate": "ATP",
+                  "literature": "739591",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "1500"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "8",
+                  "ecNumber": "2.7.2.1",
+                  "commentary": "pH 7.5, 10&Acirc;&deg;C, recombinant enzyme",
+                  "substrate": "ADP",
+                  "literature": "739591",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "892"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "8",
+                  "ecNumber": "2.7.2.1",
+                  "commentary": "pH 7.5, 15&Acirc;&deg;C, recombinant enzyme",
+                  "substrate": "ADP",
+                  "literature": "739591",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "1565"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "8",
+                  "ecNumber": "2.7.2.1",
+                  "commentary": "pH 7.5, 20&Acirc;&deg;C, recombinant enzyme",
+                  "substrate": "ADP",
+                  "literature": "739591",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "2178"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "8",
+                  "ecNumber": "2.7.2.1",
+                  "commentary": "pH 7.5, 25&Acirc;&deg;C, recombinant enzyme",
+                  "substrate": "ADP",
+                  "literature": "739591",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "3515"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "44",
+                  "ecNumber": "2.7.2.1",
+                  "commentary": "pH 7.5, 10&Acirc;&deg;C, recombinant enzyme",
+                  "substrate": "acetate",
+                  "literature": "739591",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "560"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "44",
+                  "ecNumber": "2.7.2.1",
+                  "commentary": "pH 7.5, 15&Acirc;&deg;C, recombinant enzyme",
+                  "substrate": "acetate",
+                  "literature": "739591",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "760"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "44",
+                  "ecNumber": "2.7.2.1",
+                  "commentary": "pH 7.5, 20&Acirc;&deg;C, recombinant enzyme",
+                  "substrate": "acetate",
+                  "literature": "739591",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "1165"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "44",
+                  "ecNumber": "2.7.2.1",
+                  "commentary": "pH 7.5, 25&Acirc;&deg;C, recombinant enzyme",
+                  "substrate": "acetate",
+                  "literature": "739591",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "1420"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "305",
+                  "ecNumber": "2.7.2.1",
+                  "commentary": "pH 7.5, 10&Acirc;&deg;C, recombinant enzyme",
+                  "substrate": "acetyl phosphate",
+                  "literature": "739591",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "890"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "305",
+                  "ecNumber": "2.7.2.1",
+                  "commentary": "pH 7.5, 15&Acirc;&deg;C, recombinant enzyme",
+                  "substrate": "acetyl phosphate",
+                  "literature": "739591",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "1550"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "305",
+                  "ecNumber": "2.7.2.1",
+                  "commentary": "pH 7.5, 20&Acirc;&deg;C, recombinant enzyme",
+                  "substrate": "acetyl phosphate",
+                  "literature": "739591",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "2150"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "305",
+                  "ecNumber": "2.7.2.1",
+                  "commentary": "pH 7.5, 25&Acirc;&deg;C, recombinant enzyme",
+                  "substrate": "acetyl phosphate",
+                  "literature": "739591",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "3600"
+            }
+      ],
+      "ec:4.2.1.3": [
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "",
+                  "ecNumber": "4.2.1.3",
+                  "commentary": "",
+                  "substrate": "more",
+                  "literature": "488175",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "-999"
+            }
+      ],
+      "ec:5.3.1.1": [
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "139",
+                  "ecNumber": "5.3.1.1",
+                  "commentary": "pH 7.6, wild-type enzyme",
+                  "substrate": "D-glyceraldehyde 3-phosphate",
+                  "literature": "2586",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "9000"
+            }
+      ],
+      "ec:1.2.4.1": [
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "",
+                  "ecNumber": "1.2.4.1",
+                  "commentary": "mutant enzyme H407A, at pH 7.0 and 30&deg;C",
+                  "substrate": "E2p lipoyl domain",
+                  "literature": "725205",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "0.08"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "29",
+                  "ecNumber": "1.2.4.1",
+                  "commentary": "mutant enzyme H407A, with 2,6-dichlorophenolindophenol, at 30&deg;C",
+                  "substrate": "pyruvate",
+                  "literature": "687613",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "0.081"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "29",
+                  "ecNumber": "1.2.4.1",
+                  "commentary": "mutant enzyme K403E, with 2,6-dichlorophenolindophenol, at 30&deg;C",
+                  "substrate": "pyruvate",
+                  "literature": "687613",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "0.21"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "29",
+                  "ecNumber": "1.2.4.1",
+                  "commentary": "mutant enzyme E401K, with 2,6-dichlorophenolindophenol, at 30&deg;C",
+                  "substrate": "pyruvate",
+                  "literature": "687613",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "0.39"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "",
+                  "ecNumber": "1.2.4.1",
+                  "commentary": "mutant enzyme D549A, at pH 7.0 and 30&deg;C",
+                  "substrate": "E2p lipoyl domain",
+                  "literature": "725205",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "0.7"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "",
+                  "ecNumber": "1.2.4.1",
+                  "commentary": "mutant enzyme E401K, at pH 7.0 and 30&deg;C",
+                  "substrate": "E2p lipoyl domain",
+                  "literature": "725205",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "0.83"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "29",
+                  "ecNumber": "1.2.4.1",
+                  "commentary": "mutant enzyme K410E, with 2,6-dichlorophenolindophenol, at 30&deg;C",
+                  "substrate": "pyruvate",
+                  "literature": "687613",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "1.53"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "29",
+                  "ecNumber": "1.2.4.1",
+                  "commentary": "mutant enzyme N404A, with 2,6-dichlorophenolindophenol, at 30&deg;C",
+                  "substrate": "pyruvate",
+                  "literature": "687613",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "3.07"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "",
+                  "ecNumber": "1.2.4.1",
+                  "commentary": "mutant enzyme Y177A, at pH 7.0 and 30&deg;C",
+                  "substrate": "E2p lipoyl domain",
+                  "literature": "725205",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "3.31"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "29",
+                  "ecNumber": "1.2.4.1",
+                  "commentary": "mutant enzyme E401A, with 2,6-dichlorophenolindophenol, at 30&deg;C",
+                  "substrate": "pyruvate",
+                  "literature": "687613",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "3.64"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "29",
+                  "ecNumber": "1.2.4.1",
+                  "commentary": "mutant enzyme K403A, with 2,6-dichlorophenolindophenol, at 30&deg;C",
+                  "substrate": "pyruvate",
+                  "literature": "687613",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "4.41"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "29",
+                  "ecNumber": "1.2.4.1",
+                  "commentary": "mutant enzyme K410A, with 2,6-dichlorophenolindophenol, at 30&deg;C",
+                  "substrate": "pyruvate",
+                  "literature": "687613",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "7.68"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "29",
+                  "ecNumber": "1.2.4.1",
+                  "commentary": "mutant enzyme Q408A, with 2,6-dichlorophenolindophenol, at 30&deg;C",
+                  "substrate": "pyruvate",
+                  "literature": "687613",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "19.03"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "29",
+                  "ecNumber": "1.2.4.1",
+                  "commentary": "mutant enzyme K411E, with 2,6-dichlorophenolindophenol, at 30&deg;C",
+                  "substrate": "pyruvate",
+                  "literature": "687613",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "25.12"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "29",
+                  "ecNumber": "1.2.4.1",
+                  "commentary": "mutant enzyme K411A, with 2,6-dichlorophenolindophenol, at 30&deg;C",
+                  "substrate": "pyruvate",
+                  "literature": "687613",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "35.13"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "29",
+                  "ecNumber": "1.2.4.1",
+                  "commentary": "wild type enzyme, with 2,6-dichlorophenolindophenol, at 30&deg;C",
+                  "substrate": "pyruvate",
+                  "literature": "687613",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "37.9"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "",
+                  "ecNumber": "1.2.4.1",
+                  "commentary": "wild type enzyme, at pH 7.0 and 30&deg;C",
+                  "substrate": "E2p lipoyl domain",
+                  "literature": "725205",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "95"
+            }
+      ],
+      "ec:1.2.1.10": [
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "84",
+                  "ecNumber": "1.2.1.10",
+                  "commentary": "at 25&deg;C in 50 mM Tris/HCl buffer, pH 8.0",
+                  "substrate": "acetaldehyde",
+                  "literature": "724721",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "15.7"
+            }
+      ],
+      "ec:1.6.1.1": [
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "5",
+                  "ecNumber": "1.6.1.1",
+                  "commentary": "at pH 7.5 and 35&deg;C; pH 7.5, 35&deg;C",
+                  "substrate": "NADPH",
+                  "literature": "725040",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "167.9"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "976",
+                  "ecNumber": "1.6.1.1",
+                  "commentary": "at pH 7.5 and 35&deg;C; pH 7.5, 35&deg;C",
+                  "substrate": "thio-NAD+",
+                  "literature": "725040",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "259.5"
+            }
+      ],
+      "ec:2.2.1.2": [
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "82",
+                  "ecNumber": "2.2.1.2",
+                  "commentary": "mutant F189Y, reaction: fructose 6-phosphate cleavage into dihydroxyacetone and glyceraldehyde 3-phosphate",
+                  "substrate": "D-fructose 6-phosphate",
+                  "literature": "687768",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "0.22"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "82",
+                  "ecNumber": "2.2.1.2",
+                  "commentary": "mutant F189Y, reaction: sedoheptulose 7-phosphate and D-glyceraldehyde 3-phosphate formation from erythrose 4-phosphate + D-fructose 6-phosphate",
+                  "substrate": "D-fructose 6-phosphate",
+                  "literature": "687768",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "8.8"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "405",
+                  "ecNumber": "2.2.1.2",
+                  "commentary": "mutant F178, pH 8.5, 30&Acirc;&deg;C",
+                  "substrate": "DL-glyceraldehyde",
+                  "literature": "719298",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "0.54"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "473",
+                  "ecNumber": "2.2.1.2",
+                  "commentary": "mutant F178, pH 8.5, 30&Acirc;&deg;C",
+                  "substrate": "glyceraldehyde 3-phosphate",
+                  "literature": "719298",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "12"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "473",
+                  "ecNumber": "2.2.1.2",
+                  "commentary": "wild-type, pH 8.5, 30&Acirc;&deg;C",
+                  "substrate": "glyceraldehyde 3-phosphate",
+                  "literature": "719298",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "13"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "509",
+                  "ecNumber": "2.2.1.2",
+                  "commentary": "mutant F189Y, reaction: fructose 6-phosphate synthesis from dihydroxyacetone and glyceraldehyde 3-phosphate",
+                  "substrate": "dihydroxyacetone",
+                  "literature": "687768",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "4.3"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "520",
+                  "ecNumber": "2.2.1.2",
+                  "commentary": "mutant F178, pH 8.5, 30&Acirc;&deg;C",
+                  "substrate": "D-glyceraldehyde",
+                  "literature": "719298",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "0.53"
+            }
+      ],
+      "ec:4.2.1.2": [
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "",
+                  "ecNumber": "4.2.1.2",
+                  "commentary": "",
+                  "substrate": "more",
+                  "literature": "33770",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "-999"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "",
+                  "ecNumber": "4.2.1.2",
+                  "commentary": "",
+                  "substrate": "more",
+                  "literature": "33771",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "-999"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "180",
+                  "ecNumber": "4.2.1.2",
+                  "commentary": "pH 7.9, mutant enzyme E315Q",
+                  "substrate": "L-malate",
+                  "literature": "653794",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "1"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "246",
+                  "ecNumber": "4.2.1.2",
+                  "commentary": "fumarase A",
+                  "substrate": "malate",
+                  "literature": "33771",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "11.2"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "156",
+                  "ecNumber": "4.2.1.2",
+                  "commentary": "fumarase A",
+                  "substrate": "fumarate",
+                  "literature": "33771",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "51.7"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "156",
+                  "ecNumber": "4.2.1.2",
+                  "commentary": "pH 7.9, native enzyme",
+                  "substrate": "fumarate",
+                  "literature": "653794",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "1149"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "156",
+                  "ecNumber": "4.2.1.2",
+                  "commentary": "pH 7.9, native enzyme",
+                  "substrate": "fumarate",
+                  "literature": "653794",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "1150"
+            }
+      ],
+      "ec:6.2.1.5": [
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "",
+                  "ecNumber": "6.2.1.5",
+                  "commentary": "",
+                  "substrate": "more",
+                  "literature": "823",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "-999"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "35",
+                  "ecNumber": "6.2.1.5",
+                  "commentary": "pH 7.4, 22&deg;C, mutant enzyme E197betaQ",
+                  "substrate": "GTP",
+                  "literature": "650157",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "0.21"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "35",
+                  "ecNumber": "6.2.1.5",
+                  "commentary": "pH 7.4, 22&deg;C, mutant enzyme E208alphaQ",
+                  "substrate": "GTP",
+                  "literature": "650157",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "0.28"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "54",
+                  "ecNumber": "6.2.1.5",
+                  "commentary": "mutant enzyme C123ALPHAA, apparent value",
+                  "substrate": "succinate",
+                  "literature": "671076",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "0.3"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "7",
+                  "ecNumber": "6.2.1.5",
+                  "commentary": "pH 7.4, 22&deg;C, mutant enzyme E208alphaQ",
+                  "substrate": "ATP",
+                  "literature": "650157",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "0.57"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "7",
+                  "ecNumber": "6.2.1.5",
+                  "commentary": "pH 7.4, 22&deg;C, mutant enzyme E197betaQ",
+                  "substrate": "ATP",
+                  "literature": "650157",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "0.85"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "7",
+                  "ecNumber": "6.2.1.5",
+                  "commentary": "pH 7.4, 22&deg;C, mutant enzyme E208alphaQ",
+                  "substrate": "ATP",
+                  "literature": "650157",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "6.08"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "54",
+                  "ecNumber": "6.2.1.5",
+                  "commentary": "mutant enzyme C123ALPHAV, apparent value",
+                  "substrate": "succinate",
+                  "literature": "671076",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "15.3"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "54",
+                  "ecNumber": "6.2.1.5",
+                  "commentary": "mutant enzyme C123ALPHAS, apparent value",
+                  "substrate": "succinate",
+                  "literature": "671076",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "29.25"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "54",
+                  "ecNumber": "6.2.1.5",
+                  "commentary": "mutant enzyme C123ALPHAT, apparent value",
+                  "substrate": "succinate",
+                  "literature": "671076",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "31"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "54",
+                  "ecNumber": "6.2.1.5",
+                  "commentary": "mutant enzyme C123ALPHAA, apparent value",
+                  "substrate": "succinate",
+                  "literature": "671076",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "35.38"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "54",
+                  "ecNumber": "6.2.1.5",
+                  "commentary": "wild type enzyme, apparent value",
+                  "substrate": "succinate",
+                  "literature": "671076",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "44.73"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "35",
+                  "ecNumber": "6.2.1.5",
+                  "commentary": "pH 7.4, 22&deg;C, mutant enzyme E208alphaD",
+                  "substrate": "GTP",
+                  "literature": "650157",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "302"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "7",
+                  "ecNumber": "6.2.1.5",
+                  "commentary": "pH 7.4, 22&deg;C, mutant enzyme E197betaD",
+                  "substrate": "ATP",
+                  "literature": "650157",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "1775"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "35",
+                  "ecNumber": "6.2.1.5",
+                  "commentary": "pH 7.4, 22&deg;C, mutant enzyme E197betaD",
+                  "substrate": "GTP",
+                  "literature": "650157",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "1775"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "7",
+                  "ecNumber": "6.2.1.5",
+                  "commentary": "pH 7.4, 22&deg;C, mutant enzyme E197betaD",
+                  "substrate": "ATP",
+                  "literature": "650157",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "1780"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "35",
+                  "ecNumber": "6.2.1.5",
+                  "commentary": "pH 7.4, 22&deg;C, mutant enzyme E197betaD",
+                  "substrate": "GTP",
+                  "literature": "650157",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "1780"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "7",
+                  "ecNumber": "6.2.1.5",
+                  "commentary": "pH 7.4, 22&deg;C, mutant enzyme E208alphaD",
+                  "substrate": "ATP",
+                  "literature": "650157",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "2340"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "7",
+                  "ecNumber": "6.2.1.5",
+                  "commentary": "pH 7.4, 22&deg;C, mutant enzyme E208alphaD",
+                  "substrate": "ATP",
+                  "literature": "650157",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "2343"
+            }
+      ],
+      "ec:1.2.4.2": [
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "",
+                  "ecNumber": "1.2.4.2",
+                  "commentary": "",
+                  "substrate": "more",
+                  "literature": "349022",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "-999"
+            }
+      ],
+      "ec:4.1.1.31": [
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "",
+                  "ecNumber": "4.1.1.31",
+                  "commentary": "",
+                  "substrate": "more",
+                  "literature": "4333",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "-999"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "47",
+                  "ecNumber": "4.1.1.31",
+                  "commentary": "wild-type enzyme",
+                  "substrate": "phosphoenolpyruvate",
+                  "literature": "4333",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "540"
+            }
+      ],
+      "ec:1.3.5.1": [
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "54",
+                  "ecNumber": "1.3.5.1",
+                  "commentary": "mutant K228R, cosubstrate ubiquinone, pH 7.9, 30&Acirc;&deg;C",
+                  "substrate": "succinate",
+                  "literature": "674634",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "0.1"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "54",
+                  "ecNumber": "1.3.5.1",
+                  "commentary": "mutant K228L, cosubstrate ubiquinone, pH 7.9, 30&Acirc;&deg;C",
+                  "substrate": "succinate",
+                  "literature": "674634",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "0.3"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "54",
+                  "ecNumber": "1.3.5.1",
+                  "commentary": "mutant E49F, cosubstrate ubiquinone, pH 7.9, 30&Acirc;&deg;C",
+                  "substrate": "succinate",
+                  "literature": "674634",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "20.4"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "54",
+                  "ecNumber": "1.3.5.1",
+                  "commentary": "mutant E49L, cosubstrate ubiquinone, pH 7.9, 30&Acirc;&deg;C",
+                  "substrate": "succinate",
+                  "literature": "674634",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "23"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "54",
+                  "ecNumber": "1.3.5.1",
+                  "commentary": "wild-type, cosubstrate ubiquinone, pH 7.9, 30&Acirc;&deg;C",
+                  "substrate": "succinate",
+                  "literature": "674634",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "24"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "54",
+                  "ecNumber": "1.3.5.1",
+                  "commentary": "30&Acirc;&deg;C, pH 7.8",
+                  "substrate": "succinate",
+                  "literature": "656003",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "78"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "54",
+                  "ecNumber": "1.3.5.1",
+                  "commentary": "fumarate reduction, pH 7.8, 30&Acirc;&deg;C",
+                  "substrate": "succinate",
+                  "literature": "654820",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "85"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "54",
+                  "ecNumber": "1.3.5.1",
+                  "commentary": "",
+                  "substrate": "succinate",
+                  "literature": "391145",
+                  "turnoverNumberMaximum": "100",
+                  "turnoverNumber": "90"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "54",
+                  "ecNumber": "1.3.5.1",
+                  "commentary": "",
+                  "substrate": "succinate",
+                  "literature": "287801",
+                  "turnoverNumberMaximum": "217",
+                  "turnoverNumber": "167"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "54",
+                  "ecNumber": "1.3.5.1",
+                  "commentary": "",
+                  "substrate": "succinate",
+                  "literature": "391172",
+                  "turnoverNumberMaximum": "217",
+                  "turnoverNumber": "167"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "156",
+                  "ecNumber": "1.3.5.1",
+                  "commentary": "with menaquinone EC 1.3.5.4: , succinate oxidation: 3.4 s-1, pH 7.8, 30&Acirc;&deg;C",
+                  "substrate": "fumarate",
+                  "literature": "654820",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "-999"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "156",
+                  "ecNumber": "1.3.5.1",
+                  "commentary": "succinate oxidation, pH 7.8, 30&Acirc;&deg;C",
+                  "substrate": "fumarate",
+                  "literature": "654820",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "1.7"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "343",
+                  "ecNumber": "1.3.5.1",
+                  "commentary": "pH 8.0, 25&Acirc;&deg;C, recombinant subunit SDHB mutant G227L",
+                  "substrate": "ubiquinone",
+                  "literature": "685281",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "11.6"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "343",
+                  "ecNumber": "1.3.5.1",
+                  "commentary": "pH 8.0, 25&Acirc;&deg;C, recombinant subunit SDHC mutant E101L",
+                  "substrate": "ubiquinone",
+                  "literature": "685281",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "15.6"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "343",
+                  "ecNumber": "1.3.5.1",
+                  "commentary": "pH 8.0, 25&Acirc;&deg;C, recombinant subunit SDHC mutant D95L",
+                  "substrate": "ubiquinone",
+                  "literature": "685281",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "16.2"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "343",
+                  "ecNumber": "1.3.5.1",
+                  "commentary": "pH 8.0, 25&Acirc;&deg;C, recombinant subunit SDHD mutant Q78L",
+                  "substrate": "ubiquinone",
+                  "literature": "685281",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "17.4"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "343",
+                  "ecNumber": "1.3.5.1",
+                  "commentary": "pH 7.0, 25&Acirc;&deg;C, recombinant subunit SDHB/C mutant G227L/D95E",
+                  "substrate": "ubiquinone",
+                  "literature": "685281",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "18.6"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "343",
+                  "ecNumber": "1.3.5.1",
+                  "commentary": "pH 8.0, 25&Acirc;&deg;C, recombinant subunit SDHC mutant E101D",
+                  "substrate": "ubiquinone",
+                  "literature": "685281",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "20.9"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "343",
+                  "ecNumber": "1.3.5.1",
+                  "commentary": "pH 8.0, 25&Acirc;&deg;C, recombinant subunit SDHC mutant D95E",
+                  "substrate": "ubiquinone",
+                  "literature": "685281",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "22.3"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "343",
+                  "ecNumber": "1.3.5.1",
+                  "commentary": "pH 7.0, 25&Acirc;&deg;C, recombinant subunit SDHB/C mutant G227L/D95L",
+                  "substrate": "ubiquinone",
+                  "literature": "685281",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "24.8"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "343",
+                  "ecNumber": "1.3.5.1",
+                  "commentary": "pH 8.0, 25&Acirc;&deg;C, recombinant wild-type enzyme",
+                  "substrate": "ubiquinone",
+                  "literature": "685281",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "37.9"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "1753",
+                  "ecNumber": "1.3.5.1",
+                  "commentary": "isolated complex",
+                  "substrate": "2,3-dimethoxy-5-methyl-1,4-benzoquinone",
+                  "literature": "391104",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "35"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "1753",
+                  "ecNumber": "1.3.5.1",
+                  "commentary": "membrane preparation",
+                  "substrate": "2,3-dimethoxy-5-methyl-1,4-benzoquinone",
+                  "literature": "391104",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "182"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "2529",
+                  "ecNumber": "1.3.5.1",
+                  "commentary": "pH 8.0, 25&Acirc;&deg;C, recombinant subunit SDHC mutant E101L",
+                  "substrate": "reduced plumbagin",
+                  "literature": "685281",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "7.7"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "2529",
+                  "ecNumber": "1.3.5.1",
+                  "commentary": "pH 8.0, 25&Acirc;&deg;C, recombinant subunit SDHC mutant D95L",
+                  "substrate": "reduced plumbagin",
+                  "literature": "685281",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "8.6"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "2529",
+                  "ecNumber": "1.3.5.1",
+                  "commentary": "pH 8.0, 25&Acirc;&deg;C, recombinant subunit SDHB mutant G227L",
+                  "substrate": "reduced plumbagin",
+                  "literature": "685281",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "9.1"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "2529",
+                  "ecNumber": "1.3.5.1",
+                  "commentary": "pH 8.0, 25&Acirc;&deg;C, recombinant subunit SDHD mutant Q78L",
+                  "substrate": "reduced plumbagin",
+                  "literature": "685281",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "9.3"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "2529",
+                  "ecNumber": "1.3.5.1",
+                  "commentary": "pH 8.0, 25&Acirc;&deg;C, recombinant subunit SDHC mutant E101D",
+                  "substrate": "reduced plumbagin",
+                  "literature": "685281",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "10.4"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "2529",
+                  "ecNumber": "1.3.5.1",
+                  "commentary": "pH 8.0, 25&Acirc;&deg;C, recombinant subunit SDHC mutant D95E",
+                  "substrate": "reduced plumbagin",
+                  "literature": "685281",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "12.7"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "2529",
+                  "ecNumber": "1.3.5.1",
+                  "commentary": "pH 8.0, 25&Acirc;&deg;C, recombinant wild-type enzyme",
+                  "substrate": "reduced plumbagin",
+                  "literature": "685281",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "15.9"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "2529",
+                  "ecNumber": "1.3.5.1",
+                  "commentary": "pH 7.0, 25&Acirc;&deg;C, recombinant subunit SDHB/C mutant G227L/D95L",
+                  "substrate": "reduced plumbagin",
+                  "literature": "685281",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "21.5"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "2529",
+                  "ecNumber": "1.3.5.1",
+                  "commentary": "pH 7.0, 25&Acirc;&deg;C, recombinant subunit SDHB/C mutant G227L/D95E",
+                  "substrate": "reduced plumbagin",
+                  "literature": "685281",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "23"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "5187",
+                  "ecNumber": "1.3.5.1",
+                  "commentary": "pH 7.0, 25&Acirc;&deg;C, recombinant subunit SDHB/C mutant G227L/D95L",
+                  "substrate": "2-(4,5-dimethyl-2-thiazolyl)-3,5-diphenyl-2H-tetrazolium bromide",
+                  "literature": "685281",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "9.4"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "5187",
+                  "ecNumber": "1.3.5.1",
+                  "commentary": "pH 8.0, 25&Acirc;&deg;C, recombinant subunit SDHC mutant E101L",
+                  "substrate": "2-(4,5-dimethyl-2-thiazolyl)-3,5-diphenyl-2H-tetrazolium bromide",
+                  "literature": "685281",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "12.6"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "5187",
+                  "ecNumber": "1.3.5.1",
+                  "commentary": "pH 8.0, 25&Acirc;&deg;C, recombinant subunit SDHB mutant G227L",
+                  "substrate": "2-(4,5-dimethyl-2-thiazolyl)-3,5-diphenyl-2H-tetrazolium bromide",
+                  "literature": "685281",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "15.9"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "5187",
+                  "ecNumber": "1.3.5.1",
+                  "commentary": "pH 8.0, 25&Acirc;&deg;C, recombinant subunit SDHC mutant D95L",
+                  "substrate": "2-(4,5-dimethyl-2-thiazolyl)-3,5-diphenyl-2H-tetrazolium bromide",
+                  "literature": "685281",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "17.4"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "5187",
+                  "ecNumber": "1.3.5.1",
+                  "commentary": "pH 8.0, 25&Acirc;&deg;C, recombinant subunit SDHC mutant E101D",
+                  "substrate": "2-(4,5-dimethyl-2-thiazolyl)-3,5-diphenyl-2H-tetrazolium bromide",
+                  "literature": "685281",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "18"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "5187",
+                  "ecNumber": "1.3.5.1",
+                  "commentary": "pH 7.0, 25&Acirc;&deg;C, recombinant subunit SDHB/C mutant G227L/D95E",
+                  "substrate": "2-(4,5-dimethyl-2-thiazolyl)-3,5-diphenyl-2H-tetrazolium bromide",
+                  "literature": "685281",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "19.9"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "5187",
+                  "ecNumber": "1.3.5.1",
+                  "commentary": "pH 8.0, 25&Acirc;&deg;C, recombinant subunit SDHD mutant Q78L",
+                  "substrate": "2-(4,5-dimethyl-2-thiazolyl)-3,5-diphenyl-2H-tetrazolium bromide",
+                  "literature": "685281",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "20.8"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "5187",
+                  "ecNumber": "1.3.5.1",
+                  "commentary": "pH 8.0, 25&Acirc;&deg;C, recombinant wild-type enzyme",
+                  "substrate": "2-(4,5-dimethyl-2-thiazolyl)-3,5-diphenyl-2H-tetrazolium bromide",
+                  "literature": "685281",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "20.9"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "5187",
+                  "ecNumber": "1.3.5.1",
+                  "commentary": "pH 8.0, 25&Acirc;&deg;C, recombinant subunit SDHC mutant D95E",
+                  "substrate": "2-(4,5-dimethyl-2-thiazolyl)-3,5-diphenyl-2H-tetrazolium bromide",
+                  "literature": "685281",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "29.6"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "36768",
+                  "ecNumber": "1.3.5.1",
+                  "commentary": "30&Acirc;&deg;C, pH 7.8",
+                  "substrate": "succinate-phenazine ethosulfate",
+                  "literature": "656003",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "82"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "",
+                  "ecNumber": "1.3.5.1",
+                  "commentary": "succinate-quinone and quinol-fumarate reductase reaction of succinate dehydrogenase and fumarate reductase",
+                  "substrate": "more",
+                  "literature": "391137",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "-999"
+            }
+      ],
+      "ec:1.2.1.12": [
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "",
+                  "ecNumber": "1.2.1.12",
+                  "commentary": "",
+                  "substrate": "more",
+                  "literature": "287927",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "-999"
+            }
+      ],
+      "ec:4.1.1.49": [
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "47",
+                  "ecNumber": "4.1.1.49",
+                  "commentary": "at pH 7.0 and 37&deg;C",
+                  "substrate": "phosphoenolpyruvate",
+                  "literature": "727382",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "0.67"
+            }
+      ],
+      "ec:2.1.2.2": [
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "1373",
+                  "ecNumber": "2.1.2.2",
+                  "commentary": "pH 7.5",
+                  "substrate": "N10-formyl-5,8-dideazafolate",
+                  "literature": "485718",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "16.1"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "1373",
+                  "ecNumber": "2.1.2.2",
+                  "commentary": "pH 8.5",
+                  "substrate": "N10-formyl-5,8-dideazafolate",
+                  "literature": "485718",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "40"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "10509",
+                  "ecNumber": "2.1.2.2",
+                  "commentary": "",
+                  "substrate": "carbocyclic glycinamide ribonucleotide",
+                  "literature": "485718",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "33"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "2297",
+                  "ecNumber": "2.1.2.2",
+                  "commentary": "pH 7.5",
+                  "substrate": "(6R)-N10-formyltetrahydrofolate",
+                  "literature": "485718",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "13.5"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "2297",
+                  "ecNumber": "2.1.2.2",
+                  "commentary": "pH 8.5",
+                  "substrate": "(6R)-N10-formyltetrahydrofolate",
+                  "literature": "485718",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "20.7"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "20505",
+                  "ecNumber": "2.1.2.2",
+                  "commentary": "",
+                  "substrate": "N10-Formyl-8-deazafolate",
+                  "literature": "485718",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "0.069"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "20855",
+                  "ecNumber": "2.1.2.2",
+                  "commentary": "",
+                  "substrate": "N10-formyl-5-deazafolate",
+                  "literature": "485718",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "1.52"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "28621",
+                  "ecNumber": "2.1.2.2",
+                  "commentary": "",
+                  "substrate": "N10-formylfolate",
+                  "literature": "485718",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "0.016"
+            }
+      ],
+      "ec:2.7.9.2": [
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "",
+                  "ecNumber": "2.7.9.2",
+                  "commentary": "",
+                  "substrate": "more",
+                  "literature": "645472",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "-999"
+            }
+      ],
+      "ec:1.1.1.49": [
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "4",
+                  "ecNumber": "1.1.1.49",
+                  "commentary": "mutant enzyme K18A, at pH 8.2 and 25&deg;C",
+                  "substrate": "NAD+",
+                  "literature": "741254",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "109"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "6",
+                  "ecNumber": "1.1.1.49",
+                  "commentary": "mutant enzyme K18A, at pH 8.2 and 25&deg;C",
+                  "substrate": "NADP+",
+                  "literature": "741254",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "143"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "4",
+                  "ecNumber": "1.1.1.49",
+                  "commentary": "mutant enzyme K18A/R50A, at pH 8.2 and 25&deg;C",
+                  "substrate": "NAD+",
+                  "literature": "741254",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "165"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "4",
+                  "ecNumber": "1.1.1.49",
+                  "commentary": "mutant enzyme R50A, at pH 8.2 and 25&deg;C",
+                  "substrate": "NAD+",
+                  "literature": "741254",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "171"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "6",
+                  "ecNumber": "1.1.1.49",
+                  "commentary": "25&deg;C, pH 8.0",
+                  "substrate": "NADP+",
+                  "literature": "722244",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "174"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "6",
+                  "ecNumber": "1.1.1.49",
+                  "commentary": "wild type enzyme, at pH 8.2 and 25&deg;C",
+                  "substrate": "NADP+",
+                  "literature": "741254",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "174"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "6",
+                  "ecNumber": "1.1.1.49",
+                  "commentary": "mutant enzyme K18A/R50A, at pH 8.2 and 25&deg;C",
+                  "substrate": "NADP+",
+                  "literature": "741254",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "185"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "6",
+                  "ecNumber": "1.1.1.49",
+                  "commentary": "mutant enzyme R50A, at pH 8.2 and 25&deg;C",
+                  "substrate": "NADP+",
+                  "literature": "741254",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "189"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "4",
+                  "ecNumber": "1.1.1.49",
+                  "commentary": "25&deg;C, pH 8.0",
+                  "substrate": "NAD+",
+                  "literature": "722244",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "288"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "4",
+                  "ecNumber": "1.1.1.49",
+                  "commentary": "wild type enzyme, at pH 8.2 and 25&deg;C",
+                  "substrate": "NAD+",
+                  "literature": "741254",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "288"
+            }
+      ],
+      "ec:2.3.1.54": [
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "114",
+                  "ecNumber": "2.3.1.54",
+                  "commentary": "",
+                  "substrate": "formate",
+                  "literature": "487220",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "3.8"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "114",
+                  "ecNumber": "2.3.1.54",
+                  "commentary": "backward direction",
+                  "substrate": "formate",
+                  "literature": "487231",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "4.33"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "29",
+                  "ecNumber": "2.3.1.54",
+                  "commentary": "",
+                  "substrate": "pyruvate",
+                  "literature": "487220",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "11"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "29",
+                  "ecNumber": "2.3.1.54",
+                  "commentary": "forward direction",
+                  "substrate": "pyruvate",
+                  "literature": "487231",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "12.8"
+            }
+      ],
+      "ec:1.4.1.4": [
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "6",
+                  "ecNumber": "1.4.1.4",
+                  "commentary": "mutant K286Q/R289Q/R292Q/S264L, pH 8.0, temperature not specified in the publication",
+                  "substrate": "NADP+",
+                  "literature": "724981",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "2.5"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "6",
+                  "ecNumber": "1.4.1.4",
+                  "commentary": "mutant K286Q/R289Q/R292Q/S264L/S240A, pH 8.0, temperature not specified in the publication",
+                  "substrate": "NADP+",
+                  "literature": "724981",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "6.9"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "6",
+                  "ecNumber": "1.4.1.4",
+                  "commentary": "mutant K286Q/R289Q/R292Q, pH 8.0, temperature not specified in the publication",
+                  "substrate": "NADP+",
+                  "literature": "724981",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "24"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "6",
+                  "ecNumber": "1.4.1.4",
+                  "commentary": "mutant K286Q, pH 8.0, temperature not specified in the publication",
+                  "substrate": "NADP+",
+                  "literature": "724981",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "34.2"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "6",
+                  "ecNumber": "1.4.1.4",
+                  "commentary": "wild-type enzyme, pH 8.0, temperature not specified in the publication",
+                  "substrate": "NADP+",
+                  "literature": "724981",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "37.3"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "6",
+                  "ecNumber": "1.4.1.4",
+                  "commentary": "mutant K289Q, pH 8.0, temperature not specified in the publication",
+                  "substrate": "NADP+",
+                  "literature": "724981",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "37.6"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "6",
+                  "ecNumber": "1.4.1.4",
+                  "commentary": "mutant K292Q, pH 8.0, temperature not specified in the publication",
+                  "substrate": "NADP+",
+                  "literature": "724981",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "47.3"
+            }
+      ],
+      "ec:2.3.1.8": [
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "27",
+                  "ecNumber": "2.3.1.8",
+                  "commentary": "mutant Pta-F1, pH 8.0, 30&Acirc;&deg;C",
+                  "substrate": "acetyl-CoA",
+                  "literature": "719451",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "0.03"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "27",
+                  "ecNumber": "2.3.1.8",
+                  "commentary": "mutant Pta-F1, pH 8.0, 30&Acirc;&deg;C",
+                  "substrate": "acetyl-CoA",
+                  "literature": "719451",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "0.23"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "27",
+                  "ecNumber": "2.3.1.8",
+                  "commentary": "mutant Pta-F1, pH 8.0, 30&Acirc;&deg;C",
+                  "substrate": "acetyl-CoA",
+                  "literature": "719451",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "0.43"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "27",
+                  "ecNumber": "2.3.1.8",
+                  "commentary": "wild-type, pH 8.0, 30&Acirc;&deg;C",
+                  "substrate": "acetyl-CoA",
+                  "literature": "719451",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "29.6"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "27",
+                  "ecNumber": "2.3.1.8",
+                  "commentary": "pH 7.8, 30&Acirc;&deg;C",
+                  "substrate": "acetyl-CoA",
+                  "literature": "720217",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "120"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "305",
+                  "ecNumber": "2.3.1.8",
+                  "commentary": "mutant Pta-F1, pH 8.0, 30&Acirc;&deg;C",
+                  "substrate": "acetyl phosphate",
+                  "literature": "719451",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "0.15"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "305",
+                  "ecNumber": "2.3.1.8",
+                  "commentary": "mutant Pta-F1, pH 8.0, 30&Acirc;&deg;C",
+                  "substrate": "acetyl phosphate",
+                  "literature": "719451",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "1.56"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "305",
+                  "ecNumber": "2.3.1.8",
+                  "commentary": "mutant Pta-F1, pH 8.0, 30&Acirc;&deg;C",
+                  "substrate": "acetyl phosphate",
+                  "literature": "719451",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "2.16"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "305",
+                  "ecNumber": "2.3.1.8",
+                  "commentary": "wild-type, pH 8.0, 30&Acirc;&deg;C",
+                  "substrate": "acetyl phosphate",
+                  "literature": "719451",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "227"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "305",
+                  "ecNumber": "2.3.1.8",
+                  "commentary": "pH 7.8, 30&Acirc;&deg;C",
+                  "substrate": "acetyl phosphate",
+                  "literature": "720217",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "415"
+            }
+      ],
+      "ec:1.1.1.42": [
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "",
+                  "ecNumber": "1.1.1.42",
+                  "commentary": "turnover numbers of wild-type and chimeric enzymes",
+                  "substrate": "more",
+                  "literature": "722205",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "-999"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "6",
+                  "ecNumber": "1.1.1.42",
+                  "commentary": "40&deg;C, pH 8.0",
+                  "substrate": "NADP+",
+                  "literature": "722205",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "88.1"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "242",
+                  "ecNumber": "1.1.1.42",
+                  "commentary": "40&deg;C, pH 8.0",
+                  "substrate": "isocitrate",
+                  "literature": "722205",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "106.4"
+            }
+      ],
+      "ec:1.8.1.4": [
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "",
+                  "ecNumber": "1.8.1.4",
+                  "commentary": "",
+                  "substrate": "more",
+                  "literature": "393988",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "-999"
+            }
+      ],
+      "ec:1.1.1.37": [
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "53",
+                  "ecNumber": "1.1.1.37",
+                  "commentary": "pH 7.5, 30&deg;C, recombinant mutant R81Q",
+                  "substrate": "oxaloacetate",
+                  "literature": "689763",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "0.77"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "53",
+                  "ecNumber": "1.1.1.37",
+                  "commentary": "pH 7.5, 30&deg;C, recombinant wild-type enzyme",
+                  "substrate": "oxaloacetate",
+                  "literature": "689763",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "931"
+            }
+      ],
+      "ec:3.5.1.2": [
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "96",
+                  "ecNumber": "3.5.1.2",
+                  "commentary": "mutant Q161A",
+                  "substrate": "L-glutamine",
+                  "literature": "696266",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "49.9"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "96",
+                  "ecNumber": "3.5.1.2",
+                  "commentary": "mutant Q162A",
+                  "substrate": "L-glutamine",
+                  "literature": "696266",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "79.9"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "96",
+                  "ecNumber": "3.5.1.2",
+                  "commentary": "",
+                  "substrate": "L-glutamine",
+                  "literature": "696266",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "91.4"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "96",
+                  "ecNumber": "3.5.1.2",
+                  "commentary": "",
+                  "substrate": "L-glutamine",
+                  "literature": "696266",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "101"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "38",
+                  "ecNumber": "3.5.1.2",
+                  "commentary": "",
+                  "substrate": "Glu",
+                  "literature": "209024",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "5080"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "96",
+                  "ecNumber": "3.5.1.2",
+                  "commentary": "",
+                  "substrate": "Gln",
+                  "literature": "209024",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "1270"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "11030",
+                  "ecNumber": "3.5.1.2",
+                  "commentary": "",
+                  "substrate": "gamma-glutamyl hydrazide",
+                  "literature": "209024",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "14"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "13959",
+                  "ecNumber": "3.5.1.2",
+                  "commentary": "",
+                  "substrate": "gamma-methyl glutamate",
+                  "literature": "209024",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "645"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "14085",
+                  "ecNumber": "3.5.1.2",
+                  "commentary": "",
+                  "substrate": "gamma-ethyl glutamate",
+                  "literature": "209024",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "36"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "13466",
+                  "ecNumber": "3.5.1.2",
+                  "commentary": "",
+                  "substrate": "gamma-glutamyl methylamide",
+                  "literature": "209024",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "8"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "14086",
+                  "ecNumber": "3.5.1.2",
+                  "commentary": "",
+                  "substrate": "gamma-thioethyl glutamate",
+                  "literature": "209024",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "300"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "14087",
+                  "ecNumber": "3.5.1.2",
+                  "commentary": "",
+                  "substrate": "gamma-thiomethyl glutamate",
+                  "literature": "209024",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "1260"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "3556",
+                  "ecNumber": "3.5.1.2",
+                  "commentary": "",
+                  "substrate": "gamma-glutamyl-hydroxamate",
+                  "literature": "209024",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "212"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "31867",
+                  "ecNumber": "3.5.1.2",
+                  "commentary": "",
+                  "substrate": "gamma-glutamyl methoxyamide",
+                  "literature": "209024",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "296"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "",
+                  "ecNumber": "3.5.1.2",
+                  "commentary": "effect of pH on turnover number",
+                  "substrate": "more",
+                  "literature": "209024",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "-999"
+            }
+      ],
+      "ec:4.1.2.13": [
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "100",
+                  "ecNumber": "4.1.2.13",
+                  "commentary": "30&deg;C, N286D mutant",
+                  "substrate": "D-fructose 1,6-bisphosphate",
+                  "literature": "652787",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "0.001"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "100",
+                  "ecNumber": "4.1.2.13",
+                  "commentary": "30&deg;C, D109A mutant",
+                  "substrate": "D-fructose 1,6-bisphosphate",
+                  "literature": "652787",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "0.0028"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "100",
+                  "ecNumber": "4.1.2.13",
+                  "commentary": "E174A mutant, 30&deg;C",
+                  "substrate": "D-fructose 1,6-bisphosphate",
+                  "literature": "652876",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "0.013"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "100",
+                  "ecNumber": "4.1.2.13",
+                  "commentary": "E182A mutant, 30&deg;C",
+                  "substrate": "D-fructose 1,6-bisphosphate",
+                  "literature": "652876",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "0.033"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "100",
+                  "ecNumber": "4.1.2.13",
+                  "commentary": "N35A mutant, 30&deg;C",
+                  "substrate": "D-fructose 1,6-bisphosphate",
+                  "literature": "651064",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "0.16"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "100",
+                  "ecNumber": "4.1.2.13",
+                  "commentary": "30&deg;C, N286A mutant",
+                  "substrate": "D-fructose 1,6-bisphosphate",
+                  "literature": "652787",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "0.19"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "100",
+                  "ecNumber": "4.1.2.13",
+                  "commentary": "K325A mutant, 30&deg;C",
+                  "substrate": "D-fructose 1,6-bisphosphate",
+                  "literature": "651064",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "0.58"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "100",
+                  "ecNumber": "4.1.2.13",
+                  "commentary": "S61A mutant, 30&deg;C",
+                  "substrate": "D-fructose 1,6-bisphosphate",
+                  "literature": "651064",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "0.85"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "100",
+                  "ecNumber": "4.1.2.13",
+                  "commentary": "30&deg;C, D144A mutant",
+                  "substrate": "D-fructose 1,6-bisphosphate",
+                  "literature": "652787",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "2"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "100",
+                  "ecNumber": "4.1.2.13",
+                  "commentary": "30&deg;C, D288A mutant",
+                  "substrate": "D-fructose 1,6-bisphosphate",
+                  "literature": "652787",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "2.2"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "100",
+                  "ecNumber": "4.1.2.13",
+                  "commentary": "E181A mutant, 30&deg;C",
+                  "substrate": "D-fructose 1,6-bisphosphate",
+                  "literature": "652876",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "5.8"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "100",
+                  "ecNumber": "4.1.2.13",
+                  "commentary": "K325A mutant, 30&deg;C",
+                  "substrate": "D-fructose 1,6-bisphosphate",
+                  "literature": "651064",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "6.08"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "100",
+                  "ecNumber": "4.1.2.13",
+                  "commentary": "S61T mutant, 30&deg;C",
+                  "substrate": "D-fructose 1,6-bisphosphate",
+                  "literature": "651064",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "6.3"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "100",
+                  "ecNumber": "4.1.2.13",
+                  "commentary": "30&deg;C, D290A mutant",
+                  "substrate": "D-fructose 1,6-bisphosphate",
+                  "literature": "652787",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "7"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "100",
+                  "ecNumber": "4.1.2.13",
+                  "commentary": "30&deg;C, wild-type enzyme",
+                  "substrate": "D-fructose 1,6-bisphosphate",
+                  "literature": "652787",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "8.2"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "100",
+                  "ecNumber": "4.1.2.13",
+                  "commentary": "Q59A mutant, 30&deg;C",
+                  "substrate": "D-fructose 1,6-bisphosphate",
+                  "literature": "651064",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "8.5"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "100",
+                  "ecNumber": "4.1.2.13",
+                  "commentary": "wild-type enzyme, 30&deg;C",
+                  "substrate": "D-fructose 1,6-bisphosphate",
+                  "literature": "651064",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "10.5"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "100",
+                  "ecNumber": "4.1.2.13",
+                  "commentary": "wild-type enzyme, 30&deg;C",
+                  "substrate": "D-fructose 1,6-bisphosphate",
+                  "literature": "652876",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "10.5"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "100",
+                  "ecNumber": "4.1.2.13",
+                  "commentary": "30&deg;C, D329A mutant",
+                  "substrate": "D-fructose 1,6-bisphosphate",
+                  "literature": "652787",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "12.3"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "100",
+                  "ecNumber": "4.1.2.13",
+                  "commentary": "30&deg;C",
+                  "substrate": "D-fructose 1,6-bisphosphate",
+                  "literature": "666802",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "14.2"
+            }
+      ],
+      "ec:6.3.1.2": [
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "7",
+                  "ecNumber": "6.3.1.2",
+                  "commentary": "wild-type enzyme",
+                  "substrate": "ATP",
+                  "literature": "660811",
+                  "turnoverNumberMaximum": "6",
+                  "turnoverNumber": "3"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "7",
+                  "ecNumber": "6.3.1.2",
+                  "commentary": "oxidized mutant enzyme E165C",
+                  "substrate": "ATP",
+                  "literature": "660811",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "25"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "7",
+                  "ecNumber": "6.3.1.2",
+                  "commentary": "reduced mutant enzyme E165C",
+                  "substrate": "ATP",
+                  "literature": "660811",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "35"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "38",
+                  "ecNumber": "6.3.1.2",
+                  "commentary": "oxidized mutant enzyme E165C",
+                  "substrate": "L-Glu",
+                  "literature": "660811",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "27"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "38",
+                  "ecNumber": "6.3.1.2",
+                  "commentary": "reduced mutant enzyme E165C",
+                  "substrate": "L-Glu",
+                  "literature": "660811",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "40"
+            }
+      ],
+      "ec:1.1.1.284": [
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "2224",
+                  "ecNumber": "1.1.1.284",
+                  "commentary": "",
+                  "substrate": "S-hydroxymethyl glutathione",
+                  "literature": "287880",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "156"
+            }
+      ],
+      "ec:1.3.5.4": [
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "54",
+                  "ecNumber": "1.3.5.4",
+                  "commentary": "fumarate reduction. 28 s-1, with ubiquinone, reaction of succinate-ubiquinone oxidase EC 1.3.5.1",
+                  "substrate": "succinate",
+                  "literature": "654820",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "-999"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "54",
+                  "ecNumber": "1.3.5.4",
+                  "commentary": "mutant E49L, cosubstrate menaquinone, pH 7.9, 30&Acirc;&deg;C",
+                  "substrate": "succinate",
+                  "literature": "674634",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "0.3"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "54",
+                  "ecNumber": "1.3.5.4",
+                  "commentary": "mutant E49F, cosubstrate menaquinone, pH 7.9, 30&Acirc;&deg;C",
+                  "substrate": "succinate",
+                  "literature": "674634",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "0.4"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "54",
+                  "ecNumber": "1.3.5.4",
+                  "commentary": "mutant E49A, pH 7.0, 30&Acirc;&deg;C",
+                  "substrate": "succinate",
+                  "literature": "674532",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "2.4"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "54",
+                  "ecNumber": "1.3.5.4",
+                  "commentary": "mutant E49A, pH 7.0, 30&Acirc;&deg;C",
+                  "substrate": "succinate",
+                  "literature": "674532",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "4"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "54",
+                  "ecNumber": "1.3.5.4",
+                  "commentary": "fumarate reduction, pH 7.8, 30&Acirc;&deg;C",
+                  "substrate": "succinate",
+                  "literature": "654820",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "14"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "54",
+                  "ecNumber": "1.3.5.4",
+                  "commentary": "wild-type, cosubstrate menaquinone, pH 7.9, 30&Acirc;&deg;C",
+                  "substrate": "succinate",
+                  "literature": "674634",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "15"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "54",
+                  "ecNumber": "1.3.5.4",
+                  "commentary": "wild-type, pH 7.0, 30&Acirc;&deg;C",
+                  "substrate": "succinate",
+                  "literature": "674532",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "30"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "126",
+                  "ecNumber": "1.3.5.4",
+                  "commentary": "mutant R28L/R81A, pH 8.0, 30&Acirc;&deg;C",
+                  "substrate": "ferricyanide",
+                  "literature": "742846",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "20.1"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "126",
+                  "ecNumber": "1.3.5.4",
+                  "commentary": "mutant R28N, pH 8.0, 30&Acirc;&deg;C",
+                  "substrate": "ferricyanide",
+                  "literature": "742846",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "24.6"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "126",
+                  "ecNumber": "1.3.5.4",
+                  "commentary": "mutant R28E/E29I, pH 8.0, 30&Acirc;&deg;C",
+                  "substrate": "ferricyanide",
+                  "literature": "742846",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "26.4"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "126",
+                  "ecNumber": "1.3.5.4",
+                  "commentary": "mutant R28L, pH 8.0, 30&Acirc;&deg;C",
+                  "substrate": "ferricyanide",
+                  "literature": "742846",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "27.1"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "126",
+                  "ecNumber": "1.3.5.4",
+                  "commentary": "mutant R81E, pH 8.0, 30&Acirc;&deg;C",
+                  "substrate": "ferricyanide",
+                  "literature": "742846",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "27.3"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "126",
+                  "ecNumber": "1.3.5.4",
+                  "commentary": "mutant R81A, pH 8.0, 30&Acirc;&deg;C",
+                  "substrate": "ferricyanide",
+                  "literature": "742846",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "28.1"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "126",
+                  "ecNumber": "1.3.5.4",
+                  "commentary": "wild-type, pH 8.0, 30&Acirc;&deg;C",
+                  "substrate": "ferricyanide",
+                  "literature": "742846",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "28.7"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "126",
+                  "ecNumber": "1.3.5.4",
+                  "commentary": "mutant R28L/E29L, pH 8.0, 30&Acirc;&deg;C",
+                  "substrate": "ferricyanide",
+                  "literature": "742846",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "28.9"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "126",
+                  "ecNumber": "1.3.5.4",
+                  "commentary": "mutant R81K, pH 8.0, 30&Acirc;&deg;C",
+                  "substrate": "ferricyanide",
+                  "literature": "742846",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "30.4"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "156",
+                  "ecNumber": "1.3.5.4",
+                  "commentary": "mutant K228R, cosubstrate menaquinone, pH 7.0, 30&Acirc;&deg;C",
+                  "substrate": "fumarate",
+                  "literature": "674634",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "0.3"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "156",
+                  "ecNumber": "1.3.5.4",
+                  "commentary": "mutant E49A, pH 7.0, 30&Acirc;&deg;C",
+                  "substrate": "fumarate",
+                  "literature": "674532",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "1"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "156",
+                  "ecNumber": "1.3.5.4",
+                  "commentary": "mutant E49F, cosubstrate menaquinone, pH 7.0, 30&Acirc;&deg;C",
+                  "substrate": "fumarate",
+                  "literature": "674634",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "2.3"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "156",
+                  "ecNumber": "1.3.5.4",
+                  "commentary": "mutant E49L, cosubstrate menaquinone, pH 7.0, 30&Acirc;&deg;C",
+                  "substrate": "fumarate",
+                  "literature": "674634",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "5"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "156",
+                  "ecNumber": "1.3.5.4",
+                  "commentary": "mutant E49A, pH 7.0, 30&Acirc;&deg;C",
+                  "substrate": "fumarate",
+                  "literature": "674532",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "32"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "156",
+                  "ecNumber": "1.3.5.4",
+                  "commentary": "succinate oxidation, pH 7.8, 30&Acirc;&deg;C",
+                  "substrate": "fumarate",
+                  "literature": "654820",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "177"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "156",
+                  "ecNumber": "1.3.5.4",
+                  "commentary": "wild-type, cosubstrate menaquinone, pH 7.0, 30&Acirc;&deg;C",
+                  "substrate": "fumarate",
+                  "literature": "674634",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "230"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "156",
+                  "ecNumber": "1.3.5.4",
+                  "commentary": "wild-type, pH 7.0, 30&Acirc;&deg;C",
+                  "substrate": "fumarate",
+                  "literature": "674532",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "250"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "343",
+                  "ecNumber": "1.3.5.4",
+                  "commentary": "mutant R28E/E29I, pH 8.0, 30&Acirc;&deg;C",
+                  "substrate": "ubiquinone",
+                  "literature": "742846",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "1.7"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "343",
+                  "ecNumber": "1.3.5.4",
+                  "commentary": "mutant R81E, pH 8.0, 30&Acirc;&deg;C",
+                  "substrate": "ubiquinone",
+                  "literature": "742846",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "10.7"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "343",
+                  "ecNumber": "1.3.5.4",
+                  "commentary": "mutant R28L/E29L, pH 8.0, 30&Acirc;&deg;C",
+                  "substrate": "ubiquinone",
+                  "literature": "742846",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "13.9"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "343",
+                  "ecNumber": "1.3.5.4",
+                  "commentary": "mutant R81A, pH 8.0, 30&Acirc;&deg;C",
+                  "substrate": "ubiquinone",
+                  "literature": "742846",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "17.4"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "343",
+                  "ecNumber": "1.3.5.4",
+                  "commentary": "mutant R28N, pH 8.0, 30&Acirc;&deg;C",
+                  "substrate": "ubiquinone",
+                  "literature": "742846",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "19"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "343",
+                  "ecNumber": "1.3.5.4",
+                  "commentary": "mutant R28L, pH 8.0, 30&Acirc;&deg;C",
+                  "substrate": "ubiquinone",
+                  "literature": "742846",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "19.3"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "343",
+                  "ecNumber": "1.3.5.4",
+                  "commentary": "wild-type, pH 8.0, 30&Acirc;&deg;C",
+                  "substrate": "ubiquinone",
+                  "literature": "742846",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "24.9"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "343",
+                  "ecNumber": "1.3.5.4",
+                  "commentary": "mutant R81K, pH 8.0, 30&Acirc;&deg;C",
+                  "substrate": "ubiquinone",
+                  "literature": "742846",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "32.2"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "2151",
+                  "ecNumber": "1.3.5.4",
+                  "commentary": "mutant R28E/E29I, pH 8.0, 30&Acirc;&deg;C",
+                  "substrate": "menaquinol",
+                  "literature": "742846",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "2.8"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "2151",
+                  "ecNumber": "1.3.5.4",
+                  "commentary": "mutant R28E/E29I, pH 7.0, 30&Acirc;&deg;C",
+                  "substrate": "menaquinol",
+                  "literature": "742846",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "3"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "2151",
+                  "ecNumber": "1.3.5.4",
+                  "commentary": "mutant R81A, pH 8.0, 30&Acirc;&deg;C",
+                  "substrate": "menaquinol",
+                  "literature": "742846",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "6.1"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "2151",
+                  "ecNumber": "1.3.5.4",
+                  "commentary": "mutant R81A, pH 7.0, 30&Acirc;&deg;C",
+                  "substrate": "menaquinol",
+                  "literature": "742846",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "10.6"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "2151",
+                  "ecNumber": "1.3.5.4",
+                  "commentary": "mutant R28L/E29L, pH 8.0, 30&Acirc;&deg;C",
+                  "substrate": "menaquinol",
+                  "literature": "742846",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "11.1"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "2151",
+                  "ecNumber": "1.3.5.4",
+                  "commentary": "mutant R28L/E29L, pH 7.0, 30&Acirc;&deg;C",
+                  "substrate": "menaquinol",
+                  "literature": "742846",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "12.2"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "2151",
+                  "ecNumber": "1.3.5.4",
+                  "commentary": "mutant R81E, pH 8.0, 30&Acirc;&deg;C",
+                  "substrate": "menaquinol",
+                  "literature": "742846",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "12.8"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "2151",
+                  "ecNumber": "1.3.5.4",
+                  "commentary": "mutant R81E, pH 7.0, 30&Acirc;&deg;C",
+                  "substrate": "menaquinol",
+                  "literature": "742846",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "14"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "2151",
+                  "ecNumber": "1.3.5.4",
+                  "commentary": "mutant R28N, pH 8.0, 30&Acirc;&deg;C",
+                  "substrate": "menaquinol",
+                  "literature": "742846",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "65.4"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "2151",
+                  "ecNumber": "1.3.5.4",
+                  "commentary": "mutant R28L, pH 8.0, 30&Acirc;&deg;C",
+                  "substrate": "menaquinol",
+                  "literature": "742846",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "67.8"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "2151",
+                  "ecNumber": "1.3.5.4",
+                  "commentary": "mutant R28N, pH 7.0, 30&Acirc;&deg;C",
+                  "substrate": "menaquinol",
+                  "literature": "742846",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "68.6"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "2151",
+                  "ecNumber": "1.3.5.4",
+                  "commentary": "mutant R28L, pH 7.0, 30&Acirc;&deg;C",
+                  "substrate": "menaquinol",
+                  "literature": "742846",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "71.1"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "2151",
+                  "ecNumber": "1.3.5.4",
+                  "commentary": "mutant R81K, pH 7.0, 30&Acirc;&deg;C",
+                  "substrate": "menaquinol",
+                  "literature": "742846",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "123.7"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "2151",
+                  "ecNumber": "1.3.5.4",
+                  "commentary": "mutant R81K, pH 8.0, 30&Acirc;&deg;C",
+                  "substrate": "menaquinol",
+                  "literature": "742846",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "138.9"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "2151",
+                  "ecNumber": "1.3.5.4",
+                  "commentary": "wild-type, pH 8.0, 30&Acirc;&deg;C",
+                  "substrate": "menaquinol",
+                  "literature": "742846",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "211"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "2151",
+                  "ecNumber": "1.3.5.4",
+                  "commentary": "wild-type, pH 7.0, 30&Acirc;&deg;C",
+                  "substrate": "menaquinol",
+                  "literature": "742846",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "222.2"
+            }
+      ],
+      "ec:3.1.3.11": [
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "100",
+                  "ecNumber": "3.1.3.11",
+                  "commentary": "pH 9.0, 37&Acirc;&deg;C, mutant E59A",
+                  "substrate": "D-fructose 1,6-bisphosphate",
+                  "literature": "693243",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "1.1"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "100",
+                  "ecNumber": "3.1.3.11",
+                  "commentary": "pH 9.0, 37&Acirc;&deg;C, mutant D186A",
+                  "substrate": "D-fructose 1,6-bisphosphate",
+                  "literature": "693243",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "1.2"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "100",
+                  "ecNumber": "3.1.3.11",
+                  "commentary": "pH 9.0, 37&Acirc;&deg;C, mutant R235A",
+                  "substrate": "D-fructose 1,6-bisphosphate",
+                  "literature": "693243",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "5.4"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "100",
+                  "ecNumber": "3.1.3.11",
+                  "commentary": "pH 9.0, 37&Acirc;&deg;C, wild-type",
+                  "substrate": "D-fructose 1,6-bisphosphate",
+                  "literature": "693243",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "5.7"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "100",
+                  "ecNumber": "3.1.3.11",
+                  "commentary": "pH 9.0, 37&Acirc;&deg;C, mutant K239A",
+                  "substrate": "D-fructose 1,6-bisphosphate",
+                  "literature": "693243",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "7.5"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "100",
+                  "ecNumber": "3.1.3.11",
+                  "commentary": "22&Acirc;&deg;C, pH 7.5, the enzyme is incubated for 1 h in assay mixture. The reaction is initiated by the addition of Mg2+",
+                  "substrate": "D-fructose 1,6-bisphosphate",
+                  "literature": "680756",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "8"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "100",
+                  "ecNumber": "3.1.3.11",
+                  "commentary": "mutant L54A, 22&Acirc;&deg;C, pH 7.5",
+                  "substrate": "D-fructose 1,6-bisphosphate",
+                  "literature": "665621",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "11.3"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "100",
+                  "ecNumber": "3.1.3.11",
+                  "commentary": "pH 9.0, 37&Acirc;&deg;C, mutant K29A",
+                  "substrate": "D-fructose 1,6-bisphosphate",
+                  "literature": "693243",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "14"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "100",
+                  "ecNumber": "3.1.3.11",
+                  "commentary": "pH 7.5, 30&Acirc;&deg;C",
+                  "substrate": "D-fructose 1,6-bisphosphate",
+                  "literature": "650375",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "14.6"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "100",
+                  "ecNumber": "3.1.3.11",
+                  "commentary": "wild-type, 22&Acirc;&deg;C, pH 7.5",
+                  "substrate": "D-fructose 1,6-bisphosphate",
+                  "literature": "665621",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "20"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "100",
+                  "ecNumber": "3.1.3.11",
+                  "commentary": "pH 7.5",
+                  "substrate": "D-fructose 1,6-bisphosphate",
+                  "literature": "652492",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "22"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "100",
+                  "ecNumber": "3.1.3.11",
+                  "commentary": "22&Acirc;&deg;C, pH 7.5, assay is initiated by the addition of enzyme",
+                  "substrate": "D-fructose 1,6-bisphosphate",
+                  "literature": "680756",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "24"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "100",
+                  "ecNumber": "3.1.3.11",
+                  "commentary": "22&Acirc;&deg;C, pH 7.5, assay mixtures contains 1 mM phosphoenolpyruvate. Enzyme was incubated for 1 h in assay mixture. The reaction was initiated by the addition of Mg2+",
+                  "substrate": "D-fructose 1,6-bisphosphate",
+                  "literature": "680756",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "26"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "100",
+                  "ecNumber": "3.1.3.11",
+                  "commentary": "wild-type",
+                  "substrate": "fructose 1,6-bisphosphate",
+                  "literature": "693243",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "2.5"
+            },
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "",
+                  "ecNumber": "3.1.3.11",
+                  "commentary": "",
+                  "substrate": "more",
+                  "literature": "651666",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "-999"
+            }
+      ],
+      "ec:5.3.1.6": [
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "165",
+                  "ecNumber": "5.3.1.6",
+                  "commentary": "",
+                  "substrate": "D-ribose 5-phosphate",
+                  "literature": "653911",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "2100"
+            }
+      ],
+      "ec:1.1.1.40": [
+            {
+                  "organism": "Escherichia coli",
+                  "ligandStructureId": "6",
+                  "ecNumber": "1.1.1.40",
+                  "commentary": "pH 7.5, recombinant MaeB",
+                  "substrate": "NADP+",
+                  "literature": "687388",
+                  "turnoverNumberMaximum": "",
+                  "turnoverNumber": "66.6"
+            }
+      ]
+}

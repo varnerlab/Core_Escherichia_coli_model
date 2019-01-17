@@ -152,6 +152,48 @@ function generate_exchange_flux_index_array(reaction_name_array::Array{String,1}
     return exchange_flux_index_array
 end
 
+function load_ec_mapping_file(path_to_ec_file::String)
+
+    # initialize the ec number array -
+    ec_number_dictionary = Dict{String,String}()
+
+    # open the ec file -
+    open(path_to_ec_file) do f
+
+        # load the file into the buffer -
+        buffer = read(f, String)
+
+        # split along new line -
+        list_of_records = split(buffer,'\n')
+
+        # how many records do we have?
+        number_of_records = length(list_of_records)
+        for record_index = 1:number_of_records
+
+            # convert the record to a string -
+            record = string(list_of_records[record_index])
+
+            # is the record empty?
+            if (isempty(record) == false)
+
+                # split into fields -
+                field_array = split(record,'\t')
+
+                # grab the ec number -
+                bg_number = field_array[1]
+                ec_number = field_array[2]
+
+                # add a record -
+                ec_number_dictionary[bg_number] = ec_number
+
+            end
+        end
+    end
+
+    # return -
+    return ec_number_dictionary
+end
+
 """
 TODO: Fill me in with some stuff ...
 """
@@ -188,8 +230,12 @@ function generate_default_data_dictionary(path_to_cobra_mat_file::String,model_n
         default_flux_bounds_array[reaction_index,2] = ub[reaction_index]
     end
 
+    # load the ec_number file -
+    path_to_ec_file::String = "/Users/jeffreyvarner/Desktop/julia_work/core_ecoli_model/src/cobra/config/data/ec_numbers.dat"
+    ec_number_dictionary =  load_ec_mapping_file(path_to_ec_file)
+
     # update the default bounds array w/our "default" biophysical_constants -
-    flux_bounds_array = update_default_flux_bounds_array(default_flux_bounds_array, default_biophysical_dictionary)
+    flux_bounds_array = update_default_flux_bounds_array(default_flux_bounds_array, default_biophysical_dictionary, cobra_dictionary, ec_number_dictionary)
 
     # species bounds array - default, everything is bounded 0,0
     # species in the [e] (extracellular) compartment are unbounded
@@ -241,12 +287,12 @@ function generate_default_data_dictionary(path_to_cobra_mat_file::String,model_n
 end
 
 # - PRIVATE HELPER METHODS -------------------------------------------------------------------- #
-function update_default_flux_bounds_array(flux_bounds_array::Array{Float64,2},biophysical_dictionary::Dict{String,Any})
+function update_default_flux_bounds_array(flux_bounds_array::Array{Float64,2},biophysical_dictionary::Dict{String,Any}, cobra_dictionary, ec_number_dictionary)
 
     # ok, so we need to get some stuff from the dictionary -
     # TODO: Check these keys are contained in the dictionary
     default_turnover_number = parse(Float64,biophysical_dictionary["biophysical_constants"]["default_turnover_number"]["value"])              # convert to h^-1
-    default_enzyme_concentration = parse(Float64,biophysical_dictionary["biophysical_constants"]["default_enzyme_concentation"]["value"])    # mumol/gDW
+    default_enzyme_concentration = parse(Float64,biophysical_dictionary["biophysical_constants"]["default_enzyme_concentation"]["value"])     # mumol/gDW
 
     # calculate the default VMax -
     default_vmax = (default_turnover_number)*(default_enzyme_concentration)*(3600)

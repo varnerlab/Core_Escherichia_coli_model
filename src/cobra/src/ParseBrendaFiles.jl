@@ -10,7 +10,7 @@ function parse_brenda_file(path_to_brenda_file)
     open(path_to_brenda_file) do f
 
         # do stuff with the open file
-        buffer = readstring(f)
+        buffer = read(f, String)
         list_of_records = split(buffer,'!')
 
 
@@ -84,4 +84,4 @@ function main(path_to_model_files,path_to_json_file)
 end
 
 # build the dictionary -
-main("./brenda_data","./ECNDatabase-CCM-Palsson-SciReports-2017.json")
+main("../config/data/brenda_data","../config/data/ECN-EcoliCoreModel-Palsson-EcoSal-Plus-2013.json")
