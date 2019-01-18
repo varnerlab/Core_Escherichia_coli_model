@@ -6,4 +6,5 @@ module VLTestModule
 
     # export -
     export load_default_data_dictionary_test, sample_flux_space_test, network_decomposition_test
+    export test_rules_generator
 end

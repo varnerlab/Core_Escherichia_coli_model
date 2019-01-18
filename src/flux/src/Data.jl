@@ -231,7 +231,7 @@ function generate_default_data_dictionary(path_to_cobra_mat_file::String,model_n
     end
 
     # load the ec_number file -
-    path_to_ec_file::String = "/Users/jeffreyvarner/Desktop/julia_work/core_ecoli_model/src/cobra/config/data/ec_numbers.dat"
+    path_to_ec_file::String = "./cobra/config/data/ec_numbers.dat"
     ec_number_dictionary =  load_ec_mapping_file(path_to_ec_file)
 
     # update the default bounds array w/our "default" biophysical_constants -

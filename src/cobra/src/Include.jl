@@ -5,3 +5,4 @@ using Logging
 
 top_level_path = pwd()
 include("$(top_level_path)/cobra/src/Kegg.jl")
+include("$(top_level_path)/cobra/src/RulesGenerator.jl")

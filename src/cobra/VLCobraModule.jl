@@ -10,4 +10,5 @@ module VLCobraModule
     export write_protein_sequences_to_disk
     export write_gene_sequences_to_disk
     export write_gene_symbols_to_disk
+    export generate_rules_function
 end

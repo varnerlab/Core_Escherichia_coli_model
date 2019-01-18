@@ -41,6 +41,12 @@ function main()
     if (isemptydir("$(path_to_output_protein_seq_files)") == true)
         write_protein_sequences_to_disk(path_to_input_gene_file,path_to_output_protein_seq_files,kegg_organism_code)
     end
+
+    # Step 5: Write the rules function -
+    path_to_output_rules_function = "$(pwd())/flux/src"
+    if (filesize("$(path_to_output_rules_function)/Rules.jl") == 0)
+        generate_rules_function(cobra_dictionary, path_to_output_rules_function)
+    end
 end
 
 main()
