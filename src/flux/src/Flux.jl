@@ -1,4 +1,4 @@
-function objective_function_sweep(sweep_flux_index_array::Array{Float64,1},data_dictionary::Dict{String,Any}, number_of_divisions::Int64)
+function objective_function_sweep(sweep_flux_index_array::Array{Int64,1},data_dictionary::Dict{String,Any}, number_of_divisions::Int64)
 
     # how many fluxes do we have?
     number_of_fluxes = data_dictionary["number_of_reactions"]
@@ -26,6 +26,9 @@ function objective_function_sweep(sweep_flux_index_array::Array{Float64,1},data_
         # add this solution to the ensemble -
         flux_ensemble = [flux_ensemble calculated_flux_array]
 
+        # what is the original max solution?
+        flux_solution_max = calculated_flux_array
+
         # sample the between the bounds for this flux -
         theta = 0.0
         fba_new = fba_original
@@ -37,7 +40,7 @@ function objective_function_sweep(sweep_flux_index_array::Array{Float64,1},data_
             data_dictionary["flux_bounds_array"] = fba_new
 
             # call the lp again -
-            (objective_value, calculated_flux_array, dual_value_array, uptake_array, exit_flag,status_flag) = evaluate_lp(c_vector,data_dictionary)
+            (objective_value, calculated_flux_array, dual_value_array, uptake_array, exit_flag,status_flag) = calculate_optimal_flux_distribution(data_dictionary)
 
             # cache -
             flux_ensemble = [flux_ensemble calculated_flux_array]

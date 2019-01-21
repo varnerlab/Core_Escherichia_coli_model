@@ -24,73 +24,73 @@
       "mean_value":"20.0",
       "coefficient_of_variation":"0.0",
       "units":"mmol/gDW-hr",
-      "directionality":"output"
+      "directionality":"free"
     },
     "EX_acald(e)":{
-      "mean_value":"10.0",
+      "mean_value":"1.0",
       "coefficient_of_variation":"0.0",
       "units":"mmol/gDW-hr",
-      "directionality":"nil"
+      "directionality":"input"
     },
     "EX_akg(e)":{
       "mean_value":"10.0",
       "coefficient_of_variation":"0.0",
       "units":"mmol/gDW-hr",
-      "directionality":"nil"
+      "directionality":"free"
     },
     "EX_etoh(e)":{
       "mean_value":"10.0",
       "coefficient_of_variation":"0.0",
       "units":"mmol/gDW-hr",
-      "directionality":"nil"
+      "directionality":"free"
     },
     "EX_for(e)":{
       "mean_value":"10.0",
       "coefficient_of_variation":"0.0",
       "units":"mmol/gDW-hr",
-      "directionality":"nil"
+      "directionality":"free"
     },
     "EX_fru(e)":{
       "mean_value":"10.0",
       "coefficient_of_variation":"0.0",
       "units":"mmol/gDW-hr",
-      "directionality":"nil"
+      "directionality":"free"
     },
     "EX_fum(e)":{
       "mean_value":"10.0",
       "coefficient_of_variation":"0.0",
       "units":"mmol/gDW-hr",
-      "directionality":"nil"
+      "directionality":"free"
     },
     "EX_gln_L(e)":{
       "mean_value":"10.0",
       "coefficient_of_variation":"0.0",
       "units":"mmol/gDW-hr",
-      "directionality":"nil"
+      "directionality":"free"
     },
     "EX_glu_L(e)":{
       "mean_value":"10.0",
       "coefficient_of_variation":"0.0",
       "units":"mmol/gDW-hr",
-      "directionality":"nil"
+      "directionality":"free"
     },
     "EX_lac_D(e)":{
       "mean_value":"10.0",
       "coefficient_of_variation":"0.0",
       "units":"mmol/gDW-hr",
-      "directionality":"nil"
+      "directionality":"free"
     },
     "EX_mal_L(e)":{
       "mean_value":"10.0",
       "coefficient_of_variation":"0.0",
       "units":"mmol/gDW-hr",
-      "directionality":"nil"
+      "directionality":"free"
     },
     "EX_succ(e)":{
       "mean_value":"10.0",
       "coefficient_of_variation":"0.0",
       "units":"mmol/gDW-hr",
-      "directionality":"nil"
+      "directionality":"free"
     },
     "EX_o2(e)":{
       "mean_value":"20.0",

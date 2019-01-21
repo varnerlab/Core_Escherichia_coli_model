@@ -84,5 +84,5 @@ end
 
 # call an executable function -
 # (objective_value, calculated_flux_array, dual_value_array, uptake_array, exit_flag,status_flag) = maximize_specific_growth_rate()
-fluxResult = maximize_specific_growth_rate()
+fr = maximize_specific_growth_rate()
 #flux_ensemble = sample_flux_space_with_experimental_constraints(calculated_flux_array[:,2:end],1000)
