@@ -77,7 +77,14 @@ function constrain_measured_fluxes(data_dictionary::Dict{String,Any}, path_to_me
         if (isempty(idx_reaction_match) == false)
 
             # get the measured value -
-            measured_value = parse(Float64,local_measurement_dict["mean_value"])
+            mean_measured_value = parse(Float64,local_measurement_dict["mean_value"])
+
+            # get the CV value -
+            coefficient_of_variation = parse(Float64, local_measurement_dict["coefficient_of_variation"])
+
+            # what is the measured value?
+            distrubution = Distributions.Normal(mean_measured_value, coefficient_of_variation*mean_measured_value)
+            measured_value = rand(distrubution)
 
             # get the actual index -
             idx_reaction = (getindex(idx_reaction_match))[1]

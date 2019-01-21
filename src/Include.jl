@@ -1,5 +1,7 @@
 # - LOAD SYSTEM PACKAGES --------------------------------- #
 using Printf
+using ProgressMeter
+using Statistics
 # -------------------------------------------------------- #
 
 # - LOAD MY MODULES AND CODE ----------------------------- #

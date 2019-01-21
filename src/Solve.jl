@@ -40,34 +40,55 @@ end
 """
 TODO: Fill me in with some stuff ...
 """
-function maximize_specific_growth_rate()
+function maximize_specific_growth_rate(number_of_samples::Int64 = 100)
 
-    # load the default data_dictionary -
-    default_data_dictionary = generate_default_data_dictionary(path_to_cobra_mat_file, model_file_name, organism_id)
+    # initalize -
+    results_array = Array{VLOptimalFluxResult,1}()
 
-    # pass the default dictionary to a customization method -
-    updated_data_dictionary = optimize_specific_growth_rate(default_data_dictionary)
+    # Declare a progress meter for user feedback -
+    p = Progress(number_of_samples,color=:yellow)
 
-    # update dictionary with experimental data?
-    updated_data_dictionary = constrain_measured_fluxes(updated_data_dictionary, path_to_measurements_file)
+    # ok, so lets sample ...
+    for sample_index = 1:number_of_samples
 
-    # estimate the optimal flux distrubution -
-    (objective_value, calculated_flux_array, dual_value_array, uptake_array, exit_flag, status_flag) = calculate_optimal_flux_distribution(updated_data_dictionary)
+        # load the default data_dictionary -
+        default_data_dictionary = generate_default_data_dictionary(path_to_cobra_mat_file, model_file_name, organism_id);
 
-    # build a return type -
-    fluxResult = VLOptimalFluxResult()
-    fluxResult.objective_value = objective_value
-    fluxResult.flux_array = calculated_flux_array
-    fluxResult.dual_array = dual_value_array
-    fluxResult.uptake_array = uptake_array
-    fluxResult.exit_flag = exit_flag
-    fluxResult.status_flag = status_flag
+        # pass the default dictionary to a customization method -
+        updated_data_dictionary = optimize_specific_growth_rate(default_data_dictionary);
 
-    # get some problem setup information -
-    fluxResult.flux_bounds_array = updated_data_dictionary["flux_bounds_array"]
+        # update dictionary with experimental data?
+        updated_data_dictionary = constrain_measured_fluxes(updated_data_dictionary, path_to_measurements_file);
+
+        # estimate the optimal flux distrubution -
+        (objective_value, calculated_flux_array, dual_value_array, uptake_array, exit_flag, status_flag) = calculate_optimal_flux_distribution(updated_data_dictionary);
+
+        # build a return type -
+        fluxResult = VLOptimalFluxResult();
+        fluxResult.objective_value = objective_value;
+        fluxResult.flux_array = calculated_flux_array;
+        fluxResult.dual_array = dual_value_array;
+        fluxResult.uptake_array = uptake_array;
+        fluxResult.exit_flag = exit_flag;
+        fluxResult.status_flag = status_flag;
+
+        # get some problem setup information -
+        fluxResult.flux_bounds_array = updated_data_dictionary["flux_bounds_array"];
+
+        # cache -
+        push!(results_array, fluxResult);
+
+        # user message -
+        msg = "Completed $(sample_index) of $(number_of_samples) trials ...";
+
+        # update the progress bar -
+        ProgressMeter.next!(p; showvalues = [(:status,msg)]);
+    end
+
+    @info "Completed ...\r";
 
     # return -
-    return fluxResult
+    return results_array
 end
 
 function sample_flux_space_with_experimental_constraints(solution_bounds_array::Array{Float64,2}, number_of_samples::Int64)
@@ -83,6 +104,27 @@ function sample_flux_space_with_experimental_constraints(solution_bounds_array::
 end
 
 # call an executable function -
-# (objective_value, calculated_flux_array, dual_value_array, uptake_array, exit_flag,status_flag) = maximize_specific_growth_rate()
-fr = maximize_specific_growth_rate()
-#flux_ensemble = sample_flux_space_with_experimental_constraints(calculated_flux_array[:,2:end],1000)
+number_of_samples = 1000
+flux_object_array = maximize_specific_growth_rate(number_of_samples);
+
+# how many flux are there?
+number_of_fluxes = length(flux_object_array[1].flux_array);
+
+# compute the flux values -
+flux_ensemble = zeros(number_of_fluxes,1);
+for flux_object in flux_object_array
+
+    # grab the flux -
+    flux_array = flux_object.flux_array;
+
+    # cache -
+    global flux_ensemble = [flux_ensemble flux_array];
+end
+
+# cut off the zeros -
+flux_ensemble = flux_ensemble[:,2:end];
+
+# compute the mean and std -
+µ = mean(flux_ensemble, dims=2);
+σ = std(flux_ensemble, dims=2);
+result = [µ σ]
