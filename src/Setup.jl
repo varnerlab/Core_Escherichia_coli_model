@@ -1,5 +1,7 @@
 include("Include.jl")
 
+# consts -
+const organism_id = :eco
 
 function main()
 
@@ -9,19 +11,19 @@ function main()
     # load the data dictionary -
     path_to_cobra_mat_file::String = "$(pwd())/cobra/config/matlab_cobra_files/modelReg.mat"
     model_name::String = "modelReg"
-    dd = generate_default_data_dictionary(path_to_cobra_mat_file,model_name)
+    dd = generate_default_data_dictionary(path_to_cobra_mat_file,model_name,organism_id)
 
     # get the cobra dictionary -
     cobra_dictionary = dd["cobra_dictionary"]
 
     # Download a bunch of stuff from KEGG -
-    kegg_organism_code::String = "eco"
+    kegg_organism_code::String = String(organism_id)
     path_to_input_gene_file::String = "$(pwd())/cobra/config/data/gene_list.dat"
 
     # Step 1: Write the gene symbols to disk -
-    path_to_output_gene_file::String = "$(pwd())/cobra/config/data"
-    if (filesize("$(path_to_output_gene_file)/gene_list.dat")==0)
-        write_gene_symbols_to_disk(cobra_dictionary,path_to_output_gene_file)
+    path_to_output_gene_file::String = "$(pwd())/cobra/config/data/gene_list.dat"
+    if (filesize("$(path_to_output_gene_file)")==0)
+        write_gene_symbols_to_disk(cobra_dictionary,path_to_output_gene_file, kegg_organism_code)
     end
 
     # Step 2: Write the EC numbers to disk -
@@ -43,8 +45,8 @@ function main()
     end
 
     # Step 5: Write the rules function -
-    path_to_output_rules_function = "$(pwd())/flux/src"
-    if (filesize("$(path_to_output_rules_function)/Rules.jl") == 0)
+    path_to_output_rules_function = "$(pwd())/flux/src/Rules.jl"
+    if (filesize("$(path_to_output_rules_function)") == 0)
         generate_rules_function(cobra_dictionary, path_to_output_rules_function)
     end
 end

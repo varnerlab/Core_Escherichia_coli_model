@@ -122,9 +122,10 @@ function generate_rules_function(cobra_dictionary, path_to_output_rules_function
         end
 
         # return -
+        write(f,"\n")
         write(f,"\treturn v\n")
 
         # write the end -
-        write(f, "\nend\n")
+        write(f, "end\n")
     end
 end

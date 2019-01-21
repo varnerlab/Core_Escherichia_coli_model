@@ -60,7 +60,7 @@ function download_ec_number_from_kegg(gene_location::String,kegg_organism_code::
     # TODO: Check for crazy strings -
 
     # get the sequence -
-    ecdata = read(`curl -s -X GET http://rest.kegg.jp/link/ec/$(kegg_organism_code):$(gene_location)`, String)
+    ecdata = read(`curl -s -X GET http://rest.kegg.jp/link/ec/$(gene_location)`, String)
 
     # return this record -
     return ecdata
@@ -69,7 +69,7 @@ end
 function download_gene_sequence_from_kegg(gene_location::String,kegg_organism_code::String)
 
     # get the sequence -
-    ntseq = read(`curl -s -X GET http://rest.kegg.jp/get/$(kegg_organism_code):$(gene_location)/ntseq`,String)
+    ntseq = read(`curl -s -X GET http://rest.kegg.jp/get/$(gene_location)/ntseq`,String)
 
     # remove the header -
     P = split(ntseq,'\n')
@@ -81,7 +81,7 @@ end
 function download_protein_sequence_from_kegg(gene_location::String,kegg_organism_code::String)
 
     # get the sequence -
-    aaseq = read(`curl -s -X GET http://rest.kegg.jp/get/$(kegg_organism_code):$(gene_location)/aaseq`,String)
+    aaseq = read(`curl -s -X GET http://rest.kegg.jp/get/$(gene_location)/aaseq`,String)
 
     # remove the header -
     P = split(aaseq,'\n')
@@ -220,7 +220,7 @@ function write_gene_sequences_to_disk(path_to_input_gene_file::String,path_to_ou
     @info "Completed ...\r"
 end
 
-function write_gene_symbols_to_disk(cobra_dictionary, path_to_output_gene_file::String)
+function write_gene_symbols_to_disk(cobra_dictionary, path_to_output_gene_file::String, organism_id::String)
 
     # get list of genes from the cobra_dictionary -
     gene_list = cobra_dictionary["genes"]
@@ -230,7 +230,7 @@ function write_gene_symbols_to_disk(cobra_dictionary, path_to_output_gene_file::
     gene_index = 1
     gene_name_buffer = String[]
     for gene_name in gene_list
-        line = "$(gene_index),$(gene_name)"
+        line = "$(gene_index),$(organism_id):$(gene_name)"
         push!(gene_name_buffer,line)
         gene_index = gene_index + 1
     end

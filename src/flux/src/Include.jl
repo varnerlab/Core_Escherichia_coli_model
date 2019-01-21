@@ -23,4 +23,5 @@ include("$(top_level_path)/flux/src/Sample.jl")
 include("$(top_level_path)/flux/src/Utility.jl")
 include("$(top_level_path)/flux/src/Types.jl")
 include("$(top_level_path)/flux/src/Export.jl")
+include("$(top_level_path)/flux/src/Rules.jl")
 # ------------------------------------------------------------------ #

@@ -111,8 +111,8 @@ function constrain_measured_fluxes(data_dictionary::Dict{String,Any}, path_to_me
 
             elseif directionality == :nil
 
-                flux_bounds_array[idx_reaction,1] = 0.0
-                flux_bounds_array[idx_reaction,2] = 0.0
+                flux_bounds_array[idx_reaction,1] = -1e-6
+                flux_bounds_array[idx_reaction,2] = 1e-6
 
             else
                 # TODO: issue a warning ...
@@ -150,6 +150,166 @@ function generate_exchange_flux_index_array(reaction_name_array::Array{String,1}
 
     # return -
     return exchange_flux_index_array
+end
+
+
+"""
+TODO: Fill me in with some stuff ...
+"""
+function generate_default_data_dictionary(path_to_cobra_mat_file::String,model_name::String, organism_id::Symbol)
+
+    # Wher are we?
+    top_level_path = pwd()
+
+    # load the biophysical_constants dictionary -
+    default_biophysical_dictionary = load_default_biophysical_dictionary(organism_id)
+
+    # TODO: check if string is a legit path to the cobra file, and the model name is ok
+    # load the *.mat code from the cobra code folder -
+    file = matopen(path_to_cobra_mat_file)
+    cobra_dictionary = read(file,model_name)
+    close(file)
+
+    # Setup: the stoichiometric matrix -
+    stoichiometric_matrix = Matrix(cobra_dictionary["S"])
+    (number_of_species,number_of_reactions) = size(stoichiometric_matrix)
+
+    # get the species symbol list -
+    list_of_metabolite_symbols = cobra_dictionary["mets"]
+
+    # get list of gene symbols -
+    list_of_gene_symbols = cobra_dictionary["genes"]
+
+    # setup the objective_coefficient_array -
+    objective_coefficient_array = cobra_dictionary["c"]
+
+    # Setup: default flux bounds array, including the "exhange fluxes"
+    default_flux_bounds_array = zeros(number_of_reactions,2)
+    lb = cobra_dictionary["lb"] # lower bound -
+    ub = cobra_dictionary["ub"] # upper bound -
+    for reaction_index = 1:number_of_reactions
+        default_flux_bounds_array[reaction_index,1] = lb[reaction_index]
+        default_flux_bounds_array[reaction_index,2] = ub[reaction_index]
+    end
+
+    # calculate the default vamx (based upon biophysical_constants/literature) -
+    (default_vmax, default_enzyme_concentration) = calculate_default_vmax(default_biophysical_dictionary)
+
+    # load the ec_number file -
+    path_to_ec_file::String = top_level_path*"/cobra/config/data/ec_numbers.dat"
+    ec_number_dictionary =  load_ec_mapping_file(path_to_ec_file)
+
+    # load the gene order array -
+    path_to_gene_file = top_level_path*"/cobra/config/data/gene_list.dat"
+    gene_order_array = load_gene_order_file(path_to_gene_file)
+
+    # calculate the vamx array -
+    path_to_brenda_data = top_level_path*"/cobra/config/data/ECN-EcoliCoreModel-Palsson-EcoSal-Plus-2013.json"
+    total_vmax_array = generate_vmax_array(path_to_brenda_data, default_biophysical_dictionary, gene_order_array, ec_number_dictionary)
+
+    # correct the total_vmax_array for this model, using the rules -
+    local_data_dictionary = Dict{String,Any}()
+    local_data_dictionary["default_vmax_value"] = default_vmax
+    model_vmax_array = calculate_rules_vector(local_data_dictionary, total_vmax_array)
+
+    # update the default bounds array w/our "default" biophysical_constants -
+    flux_bounds_array = update_default_flux_bounds_array(default_flux_bounds_array, model_vmax_array, cobra_dictionary)
+
+    # species bounds array - default, everything is bounded 0,0
+    # species in the [e] (extracellular) compartment are unbounded
+    # we have *updated* the STM w/exchange reactions [] -> a and a -> []
+    # all species are bounded to 0
+    species_bounds_array = zeros(number_of_species,2)
+
+    # create list of reaction strings -
+    list_of_reaction_name_strings = cobra_dictionary["rxns"]
+
+    # What sense do we do? (by default we min)
+    is_minimum_flag = true
+
+    # construct the reaction string list -
+    list_of_chemical_reaction_strings = reconstruct_reaction_string_list(cobra_dictionary)
+
+    # grab the reversible reaction list -
+    reversible_reaction_flag_array = cobra_dictionary["rev"]
+
+    # calculate the reaction name -
+    reaction_name_array_tmp = cobra_dictionary["rxns"]
+    reaction_name_array = String[]
+    for rxn_name in reaction_name_array_tmp
+        push!(reaction_name_array,rxn_name)
+    end
+    exchange_flux_index_array = generate_exchange_flux_index_array(reaction_name_array,"EX_")
+    exchange_flux_index_array = [exchange_flux_index_array ; 13]    # add the growth rate -
+
+
+
+    # =============================== DO NOT EDIT BELOW THIS LINE ============================== #
+	data_dictionary = Dict{String,Any}()
+	data_dictionary["stoichiometric_matrix"] = stoichiometric_matrix
+    data_dictionary["number_of_species"] = number_of_species
+	data_dictionary["number_of_reactions"] = number_of_reactions
+    data_dictionary["flux_bounds_array"] = flux_bounds_array
+    data_dictionary["species_bounds_array"] = species_bounds_array
+    data_dictionary["objective_coefficient_array"] = objective_coefficient_array
+	data_dictionary["list_of_metabolite_symbols"] = list_of_metabolite_symbols
+    data_dictionary["list_of_gene_symbols"] = list_of_gene_symbols
+    data_dictionary["list_of_reaction_name_strings"] = list_of_reaction_name_strings
+    data_dictionary["list_of_chemical_reaction_strings"] = list_of_chemical_reaction_strings
+	data_dictionary["is_minimum_flag"] = is_minimum_flag
+    data_dictionary["reversible_reaction_flag_array"] = reversible_reaction_flag_array
+    data_dictionary["exchange_flux_index_array"] = exchange_flux_index_array
+
+    # stuff for rules -
+    data_dictionary["default_vmax"] = default_vmax
+
+    # in case we need something later -
+    data_dictionary["cobra_dictionary"] = cobra_dictionary
+    # ========================================================================================= #
+    return data_dictionary
+end
+
+# - PRIVATE HELPER METHODS -------------------------------------------------------------------- #
+function load_gene_order_file(path_to_gene_file)
+
+    # gene array -
+    gene_symbol_array = String[]
+
+    # open the gene file -
+    # TODO: We need to check to see if this is a legit path -
+    open(path_to_gene_file) do f
+
+        # load the file into the buffer -
+        buffer = read(f, String)
+
+        # split along new line -
+        list_of_records = split(buffer,'\n')
+
+        # how many records do we have?
+        number_of_records = length(list_of_records)
+        for record_index = 1:number_of_records
+
+            # convert the record to a string -
+            record = string(list_of_records[record_index])
+
+            # is the record empty?
+            if (isempty(record) == false)
+
+                # split into fields -
+                field_array = split(record,',')
+
+                # grab the ec number -
+                order_index = field_array[1]
+                gene_symbol = field_array[2]
+
+                # add a record -
+                push!(gene_symbol_array, gene_symbol)
+            end
+        end
+    end
+
+    # return -
+    return gene_symbol_array
 end
 
 function load_ec_mapping_file(path_to_ec_file::String)
@@ -194,100 +354,76 @@ function load_ec_mapping_file(path_to_ec_file::String)
     return ec_number_dictionary
 end
 
-"""
-TODO: Fill me in with some stuff ...
-"""
-function generate_default_data_dictionary(path_to_cobra_mat_file::String,model_name::String, organism_id::Symbol)
+function generate_vmax_array(path_to_brenda_data::String, biophysical_dictionary::Dict{String,Any}, gene_symbol_array::Array{String,1}, ec_number_dictionary::Dict{String,String})
 
-    # load the biophysical_constants dictionary -
-    default_biophysical_dictionary = load_default_biophysical_dictionary(organism_id)
+    # TODO: is the path_to_brenda_data legit?
+    kcat_measurements_dictionary = JSON.parsefile(path_to_brenda_data)
 
-    # TODO: check if string is a legit path to the cobra file, and the model name is ok
-    # load the *.mat code from the cobra code folder -
-    file = matopen(path_to_cobra_mat_file)
-    cobra_dictionary = read(file,model_name)
-    close(file)
+    # initialize -
+    vmax_array = Float64[]
 
-    # Setup: the stoichiometric matrix -
-    stoichiometric_matrix = Matrix(cobra_dictionary["S"])
-    (number_of_species,number_of_reactions) = size(stoichiometric_matrix)
+    # calculate a default value -
+    (default_vmax, default_enzyme_concentration) = calculate_default_vmax(biophysical_dictionary)
 
-    # get the species symbol list -
-    list_of_metabolite_symbols = cobra_dictionary["mets"]
+    # for each gene symbol, lookup an ec number, then get a range of measured kcats -
+    for gene_symbol in gene_symbol_array
 
-    # get list of gene symbols -
-    list_of_gene_symbols = cobra_dictionary["genes"]
+        # do we have this gene key?
+        if (haskey(ec_number_dictionary, gene_symbol) == true)
 
-    # setup the objective_coefficient_array -
-    objective_coefficient_array = cobra_dictionary["c"]
+            # what is the ec number for this key?
+            ec_number_key = ec_number_dictionary[gene_symbol]
 
-    # Setup: default flux bounds array, including the "exhange fluxes"
-    default_flux_bounds_array = zeros(number_of_reactions,2)
-    lb = cobra_dictionary["lb"] # lower bound -
-    ub = cobra_dictionary["ub"] # upper bound -
-    for reaction_index = 1:number_of_reactions
-        default_flux_bounds_array[reaction_index,1] = lb[reaction_index]
-        default_flux_bounds_array[reaction_index,2] = ub[reaction_index]
+            # ok, so we have an ec number. Do we have a kcat measurement for this ec number?
+            if (haskey(kcat_measurements_dictionary, ec_number_key) == true)
+
+
+                # ok, we have an ec_number w/data - get the data
+                # this will come back as an array of dictionaries
+                local_vmax_array = Float64[]
+                array_data_dictionaries = kcat_measurements_dictionary[ec_number_key]
+                for local_data_dictionary::Dict{String,Any} in array_data_dictionaries
+
+                    # get the turnoverNumber -
+                    turnoverNumber = parse(Float64,local_data_dictionary["turnoverNumber"])*(3600) # hr^-1
+
+                    # there is a "strange" data issue w/the Brenda data. They use -999 to mean no value
+                    if (turnoverNumber>0)
+                        # cache -
+                        push!(local_vmax_array, turnoverNumber*default_enzyme_concentration)
+                    end
+                end
+
+                if isempty(local_vmax_array) == true
+                    push!(local_vmax_array, default_vmax)
+                end
+
+                # what is the min/max -
+                min_value = minimum(local_vmax_array)
+                max_value = maximum(local_vmax_array)
+
+                # calculate a value (uniform random between the measurements)
+                sampled_vmax_value = min_value + (max_value - min_value)*rand()
+
+                # yes - we have an experimental value -
+                push!(vmax_array, sampled_vmax_value)
+            else
+
+                # nope - bummer. Use the default value -
+                push!(vmax_array, default_vmax)
+            end
+        else
+
+            # nope - bummer. Use the default value -
+            push!(vmax_array, default_vmax)
+        end
     end
 
-    # load the ec_number file -
-    path_to_ec_file::String = "./cobra/config/data/ec_numbers.dat"
-    ec_number_dictionary =  load_ec_mapping_file(path_to_ec_file)
-
-    # update the default bounds array w/our "default" biophysical_constants -
-    flux_bounds_array = update_default_flux_bounds_array(default_flux_bounds_array, default_biophysical_dictionary, cobra_dictionary, ec_number_dictionary)
-
-    # species bounds array - default, everything is bounded 0,0
-    # species in the [e] (extracellular) compartment are unbounded
-    # we have *updated* the STM w/exchange reactions [] -> a and a -> []
-    # all species are bounded to 0
-    species_bounds_array = zeros(number_of_species,2)
-
-    # create list of reaction strings -
-    list_of_reaction_name_strings = cobra_dictionary["rxns"]
-
-    # What sense do we do? (by default we min)
-    is_minimum_flag = true
-
-    # construct the reaction string list -
-    list_of_chemical_reaction_strings = reconstruct_reaction_string_list(cobra_dictionary)
-
-    # grab the reversible reaction list -
-    reversible_reaction_flag_array = cobra_dictionary["rev"]
-
-    # calculate the reaction name -
-    reaction_name_array_tmp = cobra_dictionary["rxns"]
-    reaction_name_array = String[]
-    for rxn_name in reaction_name_array_tmp
-        push!(reaction_name_array,rxn_name)
-    end
-    exchange_flux_index_array = generate_exchange_flux_index_array(reaction_name_array,"EX_")
-    exchange_flux_index_array = [exchange_flux_index_array ; 13]    # add the growth rate -
-
-    # =============================== DO NOT EDIT BELOW THIS LINE ============================== #
-	data_dictionary = Dict{String,Any}()
-	data_dictionary["stoichiometric_matrix"] = stoichiometric_matrix
-    data_dictionary["number_of_species"] = number_of_species
-	data_dictionary["number_of_reactions"] = number_of_reactions
-    data_dictionary["flux_bounds_array"] = flux_bounds_array
-    data_dictionary["species_bounds_array"] = species_bounds_array
-    data_dictionary["objective_coefficient_array"] = objective_coefficient_array
-	data_dictionary["list_of_metabolite_symbols"] = list_of_metabolite_symbols
-    data_dictionary["list_of_gene_symbols"] = list_of_gene_symbols
-    data_dictionary["list_of_reaction_name_strings"] = list_of_reaction_name_strings
-    data_dictionary["list_of_chemical_reaction_strings"] = list_of_chemical_reaction_strings
-	data_dictionary["is_minimum_flag"] = is_minimum_flag
-    data_dictionary["reversible_reaction_flag_array"] = reversible_reaction_flag_array
-    data_dictionary["exchange_flux_index_array"] = exchange_flux_index_array
-
-    # in case we need something later -
-    data_dictionary["cobra_dictionary"] = cobra_dictionary
-    # ========================================================================================= #
-    return data_dictionary
+    # return -
+    return vmax_array
 end
 
-# - PRIVATE HELPER METHODS -------------------------------------------------------------------- #
-function update_default_flux_bounds_array(flux_bounds_array::Array{Float64,2},biophysical_dictionary::Dict{String,Any}, cobra_dictionary, ec_number_dictionary)
+function calculate_default_vmax(biophysical_dictionary::Dict{String,Any})
 
     # ok, so we need to get some stuff from the dictionary -
     # TODO: Check these keys are contained in the dictionary
@@ -297,7 +433,13 @@ function update_default_flux_bounds_array(flux_bounds_array::Array{Float64,2},bi
     # calculate the default VMax -
     default_vmax = (default_turnover_number)*(default_enzyme_concentration)*(3600)
 
-    @show default_vmax
+    return (default_vmax, default_enzyme_concentration)
+end
+
+function update_default_flux_bounds_array(flux_bounds_array::Array{Float64,2}, vmax_array::Array{Float64,1}, cobra_dictionary::Dict{String,Any})
+
+    # get the reverse flag array from the cobra dictionary -
+    rev_flag_array = cobra_dictionary["rev"]
 
     # how many bounds do we have?
     (number_of_bounds, number_of_columns) = size(flux_bounds_array)
@@ -306,16 +448,15 @@ function update_default_flux_bounds_array(flux_bounds_array::Array{Float64,2},bi
     updated_flux_bounds_array = zeros(number_of_bounds,number_of_columns)
     for flux_index = 1:number_of_bounds
 
-        # get the old upper and lower bounds -
-        old_upper_bound = flux_bounds_array[flux_index,2]
-        old_lower_bound = flux_bounds_array[flux_index,1]
+        # get vmax value -
+        vmax_value = vmax_array[flux_index]
 
         # setup new bounds -
-        updated_flux_bounds_array[flux_index,2] = default_vmax
-        if (old_lower_bound<0)
-            updated_flux_bounds_array[flux_index,1] = -1*default_vmax
+        updated_flux_bounds_array[flux_index,1] = 0.0
+        updated_flux_bounds_array[flux_index,2] = vmax_value
+        if (rev_flag_array[flux_index] == 1.0)
+            updated_flux_bounds_array[flux_index,1] = -1*vmax_value
         end
-
     end
 
     # return -
