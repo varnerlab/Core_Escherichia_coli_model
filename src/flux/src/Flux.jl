@@ -57,11 +57,9 @@ function calculate_optimal_flux_distribution(data_dictionary)
 
     # Get the stoichiometric_matrix from data_dictionary -
     tmp_stoichiometric_matrix = data_dictionary["stoichiometric_matrix"]
-    additional_constraint_array = data_dictionary["additional_constraint_array"]
-    stoichiometric_matrix = [tmp_stoichiometric_matrix ; additional_constraint_array]
+    additional_constraint_array = data_dictionary["additional_constraint_array"];
+    stoichiometric_matrix = [tmp_stoichiometric_matrix ; additional_constraint_array];
     (number_of_species,number_of_fluxes) = size(stoichiometric_matrix);
-
-    @show additional_constraint_array
 
     # # Setup the GLPK problem -
     lp_problem = GLPK.Prob();
