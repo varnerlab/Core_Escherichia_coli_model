@@ -9,6 +9,7 @@ using JSON
 using VLGeneExpressionModule
 using VLCobraModule
 using GLPK
+using Gurobi
 using DelimitedFiles
 using Optim
 using Logging

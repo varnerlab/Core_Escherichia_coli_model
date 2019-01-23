@@ -11,4 +11,5 @@ module VLFluxModule
     export calculate_flux_variabilty
     export write_reactions_to_file
     export objective_function_sweep
+    export moma
 end

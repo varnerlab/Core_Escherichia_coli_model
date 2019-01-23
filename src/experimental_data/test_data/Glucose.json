@@ -15,10 +15,10 @@
       "directionality":"input"
     },
     "EX_h(e)":{
-      "mean_value":"100.0",
+      "mean_value":"10.0",
       "coefficient_of_variation":"0.2",
       "units":"mmol/gDW-hr",
-      "directionality":"free"
+      "directionality":"output"
     },
     "EX_ac(e)":{
       "mean_value":"20.0",
@@ -81,6 +81,12 @@
       "directionality":"output"
     },
     "EX_mal_L(e)":{
+      "mean_value":"10.0",
+      "coefficient_of_variation":"0.2",
+      "units":"mmol/gDW-hr",
+      "directionality":"output"
+    },
+    "EX_pyr(e)":{
       "mean_value":"10.0",
       "coefficient_of_variation":"0.2",
       "units":"mmol/gDW-hr",

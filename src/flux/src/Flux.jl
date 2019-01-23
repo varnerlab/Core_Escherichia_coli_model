@@ -1,3 +1,40 @@
+function moma(flux_soln_array::Array{Float64,1}, data_dictionary::Dict{String,Any})
+
+    # what is the size of the array?
+    number_of_fluxes = length(flux_soln_array)
+
+    # Setup the Gurobi solver parameters -
+    env = Gurobi.Env()
+
+    # set presolve to 0
+    setparam!(env, "Presolve", 0)
+
+    # Setup objective function -
+    HM = Matrix{Float64}(I,number_of_fluxes,number_of_fluxes)
+    fV = -1*flux_soln_array
+
+    # get the bounds -
+    flux_bounds_array = data_dictionary["flux_bounds_array"]
+    lba = flux_bounds_array[:,1]
+    uba = flux_bounds_array[:,2]
+
+    # Get constraints -
+    stoichiometric_matrix = data_dictionary["stoichiometric_matrix"]
+    bV = data_dictionary["species_bounds_array"][:,1]
+
+    # setup the model -
+    model = gurobi_model(env; name = "QP_01", sense = :minimize, H = HM, f = fV, Aeq = stoichiometric_matrix, beq = bV, lb = lba, ub = uba)
+
+    # run optimization
+    Gurobi.optimize(model)
+
+    # show results
+    sol = get_solution(model)
+
+    # return -
+    return sol
+end
+
 function objective_function_sweep(sweep_flux_index_array::Array{Int64,1},data_dictionary::Dict{String,Any}, number_of_divisions::Int64)
 
     # how many fluxes do we have?
