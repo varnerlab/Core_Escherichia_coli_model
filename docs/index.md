@@ -1,7 +1,8 @@
 ### What is this?
-This repository holds a [Julia](https://julialang.org) implementation of the [Core _Escherichia coli_ model of Palsson and coworkers](https://www.ncbi.nlm.nih.gov/pubmed/26443778) developed
-by the [Varnerlab](http://www.varnerlab.org) in the [Robert Frederick Smith School of Chemical and Biomolecular Engineering, Cornell University](https://www.cheme.cornell.edu/cbe).
-We use this model as a teaching tool in [CHEME 7770 Advanced Biomolecular Engineering](https://varnerlab.github.io/CHEME-7770-Cornell-S19/).
+This repository holds a [Julia](https://julialang.org) implementation, developed
+by the [Varnerlab](http://www.varnerlab.org) in the [Robert Frederick Smith School of Chemical and Biomolecular Engineering, Cornell University](https://www.cheme.cornell.edu/cbe),
+of the [Core _Escherichia coli_ model of Palsson and coworkers](https://www.ncbi.nlm.nih.gov/pubmed/26443778).
+We use this model as a teaching tool in [CHEME 7770 Advanced Biomolecular Engineering](https://varnerlab.github.io/CHEME-7770-Cornell-S19/) and to test new ways of thinking about metabolic modeling and data integration.
 
 ### Requirements and Installation
 To use this model, you need a couple of things. First, [Julia](https://julialang.org) version 1.0 or greater must be installed on your local machine.
