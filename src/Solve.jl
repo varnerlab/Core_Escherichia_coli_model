@@ -40,7 +40,7 @@ end
 """
 TODO: Fill me in with some stuff ...
 """
-function maximize_specific_growth_rate(number_of_samples::Int64 = 100)
+function maximize_specific_growth_rate(path_to_measurements_file::String; number_of_samples::Int64 = 100)
 
     # initalize -
     results_array = Array{VLOptimalFluxResult,1}()
@@ -87,14 +87,36 @@ function maximize_specific_growth_rate(number_of_samples::Int64 = 100)
 
     @info "Completed ...\r";
 
+    # how many flux are there?
+    number_of_fluxes = length(results_array[1].flux_array);
+
+    # compute the flux values -
+    flux_ensemble = zeros(number_of_fluxes,1);
+    for flux_object in results_array
+
+        # grab the flux -
+        flux_array = flux_object.flux_array;
+
+        # cache -
+        flux_ensemble = [flux_ensemble flux_array];
+    end
+
+    # cut off the zeros -
+    flux_ensemble = flux_ensemble[:,2:end];
+
+    # compute the mean and std -
+    µ = mean(flux_ensemble, dims=2);
+    σ = std(flux_ensemble, dims=2);
+    flux_distribution = [µ σ];
+
     # return -
-    return results_array
+    return (flux_distribution, results_array)
 end
 
 function sample_flux_space_with_experimental_constraints(solution_bounds_array::Array{Float64,2}, number_of_samples::Int64)
 
     # load the default data_dictionary -
-    default_data_dictionary = generate_default_data_dictionary(path_to_cobra_mat_file, model_file_name, organism_id)
+    default_data_dictionary = generate_default_data_dictionary(path_to_cobra_mat_file, model_file_name, organism_id);
 
     # update dictionary with experimental data?
     updated_data_dictionary = constrain_measured_fluxes(default_data_dictionary, path_to_measurements_file)
@@ -104,27 +126,5 @@ function sample_flux_space_with_experimental_constraints(solution_bounds_array::
 end
 
 # call an executable function -
-number_of_samples = 1000
-flux_object_array = maximize_specific_growth_rate(number_of_samples);
-
-# how many flux are there?
-number_of_fluxes = length(flux_object_array[1].flux_array);
-
-# compute the flux values -
-flux_ensemble = zeros(number_of_fluxes,1);
-for flux_object in flux_object_array
-
-    # grab the flux -
-    flux_array = flux_object.flux_array;
-
-    # cache -
-    global flux_ensemble = [flux_ensemble flux_array];
-end
-
-# cut off the zeros -
-flux_ensemble = flux_ensemble[:,2:end];
-
-# compute the mean and std -
-µ = mean(flux_ensemble, dims=2);
-σ = std(flux_ensemble, dims=2);
-result = [µ σ]
+number_of_samples = 1000;
+(flux_distribution, results_array) = maximize_specific_growth_rate(path_to_measurements_file; number_of_samples = 1000);
