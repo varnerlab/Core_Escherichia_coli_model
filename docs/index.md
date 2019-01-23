@@ -9,7 +9,7 @@ Alternatively, you can use [JuliaBox](https://juliabox.com) in the cloud. Next, 
 
     git clone https://github.com/varnerlab/Core_Escherichia_coli_model.git
 
-Once the model code is own your machine (or on your [JuliaBox](https://juliabox.com) instance in the cloud), to execute model calculations, start the [Julia](https://julialang.org) REPL in the ``src`` subdirectory and
+Once the model code is own your machine (or on your [JuliaBox](https://juliabox.com) instance in the cloud), to test the installation, start the [Julia](https://julialang.org) REPL in the ``src`` subdirectory and
 execute a sample command:
 
     julia> include("Test.jl")
