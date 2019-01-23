@@ -1,5 +1,5 @@
 ### What is this?
-This repository [Julia](https://julialang.org) implementation of the [Core _Escherichia coli_ model of Palsson and coworkers](https://www.ncbi.nlm.nih.gov/pubmed/26443778) developed
+This repository hold a [Julia](https://julialang.org) implementation of the [Core _Escherichia coli_ model of Palsson and coworkers](https://www.ncbi.nlm.nih.gov/pubmed/26443778) developed
 by the [Varnerlab](http://www.varnerlab.org) in the [Robert Frederick Smith School of Chemical and Biomolecular Engineering, Cornell University](https://www.cheme.cornell.edu/cbe).
 We use this model as a teaching tool in [CHEME 7770 Advanced Biomolecular Engineering](https://varnerlab.github.io/CHEME-7770-Cornell-S19/).
 
