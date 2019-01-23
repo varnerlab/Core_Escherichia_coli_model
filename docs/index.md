@@ -6,7 +6,10 @@ We use this model as a teaching tool in [CHEME 7770 Advanced Biomolecular Engine
 
 ### Requirements and Installation
 To use this model, you need a couple of things. First, [Julia](https://julialang.org) version 1.0 or greater must be installed on your local machine.
-Alternatively, you can use [JuliaBox](https://juliabox.com) in the cloud. Next, you'll need the model code. You can download the code either as a zip file, or by cloning directly from GitHub:
+Alternatively, you can use [JuliaBox](https://juliabox.com) in the cloud. The code solves the Linear Programming (LP) problem associated with [Flux Balance Analysis (FBA)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3108565/) using the
+[GNU Linear Programming Kit (GLPK)](https://www.gnu.org/software/glpk/) and performs [MOMA calculations](https://www.pnas.org/content/99/23/15112) using the [Gurobi](http://www.gurobi.com) solver.
+Both the GLPK and Gurobi libraries must be installed, and the paths configured, or the model calculations will not run properly.
+Next, you'll need the model code. You can download the code either as a zip file, or by cloning directly from GitHub:
 
     git clone https://github.com/varnerlab/Core_Escherichia_coli_model.git
 
